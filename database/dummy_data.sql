@@ -19,6 +19,3 @@ VALUES
 ('Eve Davis', 'eve.davis@example.com', '+12345678905');
 
 
-SELECT * FROM products;
-
-SELECT * FROM customers;

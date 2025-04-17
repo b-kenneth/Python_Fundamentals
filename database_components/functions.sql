@@ -108,3 +108,60 @@ $$ LANGUAGE plpgsql;
 
 
 
+-- ===================================
+-- AUTOMATED STOCK REPLENISHMENT
+-- ===================================
+
+CREATE OR REPLACE FUNCTION auto_replenish_stock()
+RETURNS TRIGGER AS $$
+DECLARE
+    v_replenish_amount INT := 100; -- Default amount to replenish, could be made dynamic
+BEGIN
+    -- Check if stock has fallen below reorder level
+    IF NEW.stock_quantity < NEW.reorder_level THEN
+        -- Update the stock (without triggering the other logging trigger again)
+        NEW.stock_quantity := NEW.stock_quantity + v_replenish_amount;
+        
+        -- Log the replenishment directly
+        INSERT INTO inventory_logs (
+            product_id, 
+            change_amount, 
+            new_stock_quantity, 
+            change_type
+        ) VALUES (
+            NEW.product_id,
+            v_replenish_amount,
+            NEW.stock_quantity,
+            'replenish'
+        );
+        
+        -- Optional: Log activity for monitoring
+        RAISE NOTICE 'Auto-replenished product ID % with % units', NEW.product_id, v_replenish_amount;
+    END IF;
+    
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+
+
+-- ===================================
+-- UPDATE INVENTORY LOGS
+-- ===================================
+
+CREATE OR REPLACE FUNCTION log_inventory_change()
+RETURNS TRIGGER AS $$
+BEGIN
+    -- Only log if the stock level actually changes
+    IF NEW.stock_quantity <> OLD.stock_quantity THEN
+        INSERT INTO inventory_logs (product_id, change_amount, new_stock_quantity, change_type)
+        VALUES (
+            NEW.product_id,
+            NEW.stock_quantity - OLD.stock_quantity,
+            NEW.stock_quantity,
+            'adjustment'
+        );
+    END IF;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
