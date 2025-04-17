@@ -30,7 +30,27 @@ The system is built on five core tables with carefully designed relationships:
 
 
 ## Project Structure
+### Environment Setup
 
+The `docker-compose.yaml` file provides a complete development environment with:
+
+- **PostgreSQL**: Containerized database server configured specifically for the project  
+- **Adminer UI**: Web-based database management interface for easy data viewing and manipulation  
+- **Volume persistence**: Database data persists between container restarts  
+- **Network configuration**: Properly isolated network for secure database access  
+
+### Core Database Files
+
+The `database` folder contains the foundation of the system:
+
+- `schema.sql`: Defines all tables (`Products`, `Customers`, `Orders`, `Order Details`, `Inventory Logs`) with proper relationships, constraints, and indexes to maintain data integrity  
+- `dummy_data.sql`: Contains realistic test data to demonstrate system functionality and facilitate testing of all components  
+
+### Modular SQL Components
+
+The `database_components` folder organizes SQL code by type for better maintainability:  functions, procedures, queries, triggers and views.
+
+Each file includes detailed section headers and comprehensive comments.
 
 
 ## Setup Instructions
@@ -46,7 +66,7 @@ The system is built on five core tables with carefully designed relationships:
 3. Start the PostgreSQL database:
    ```bash
    docker-compose -f setup/docker-compose.yaml up -d
-
+4. Run sql queries and commands in the `database` and `database_componenets` directories.
 
 
 ## Implementation Details
