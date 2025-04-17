@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  # PostgreSQL service
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: data_db
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  # Adminer service to manage PostgreSQL
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - '8082:8080'
+
+volumes:
+  pgdata:
+    driver: local
