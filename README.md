@@ -65,7 +65,7 @@ The project covers the following analyses:
 #### 3. **ROI Distribution by Genre**
 - **Metric**: Return on Investment (ROI = Revenue / Budget).
 - **Objective**: Determine which genres (e.g., Horror, Animation, Action) generally provide the highest ROI.
-- **Visualization Method**: Boxplot/Violin Plot.
+- **Visualization Method**: Bar Charts.
 
 #### 4. **Director Analysis**
 - **Breakdown of Directors**:
@@ -96,7 +96,7 @@ Key visualizations used in the project include:
    - Mean ROI by Genre.
 3. **Scatter Plots**:
    - Popularity vs. Ratings.
-4. **Box Plots**:
+4. **Bar Charts**:
    - ROI Distributions by Genre.
 5. **Directors Ranked by Metrics**:
    - Total Movies Directed, Total Revenue Earned, and Mean Ratings.
