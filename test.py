@@ -1,1 +1,0 @@
-winutils.exe ls /
