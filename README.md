@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project implements a complete movie data analysis pipeline using **PySpark** (instead of Pandas), based on the requirements found in [Spark-Fundamentals.pdf](Spark-Fundamentals.pdf). The goal is to fetch movie data from the TMDB API, process and clean the data, compute key performance indicators (KPIs), and generate insights and visualizations.
+This project implements a complete movie data analysis pipeline using **PySpark**. The goal is to fetch movie data from the TMDB API, process and clean the data, compute key performance indicators (KPIs), and generate insights and visualizations.
 
 By leveraging PySpark, this project can efficiently handle more scalable data analysis, taking advantage of distributed computing for large datasets.
 
@@ -32,7 +32,7 @@ By leveraging PySpark, this project can efficiently handle more scalable data an
 │   └── utils.py                        # All modular functions for extraction, preprocessing, analysis, visualization
 ├── .gitignore
 ├── requirements.txt
-└── README.md                           # This file
+└── README.md                           
 ```
 
 ---
@@ -42,7 +42,7 @@ By leveraging PySpark, this project can efficiently handle more scalable data an
 ### 1. Clone the Repository
 
 ```sh
-git clone 
+git clone https://github.com/b-kenneth/DataEng_Phase1_labs.git
 cd 
 ```
 
@@ -52,7 +52,7 @@ Create and activate a Python environment (recommended):
 
 ```sh
 python -m venv venv
-source venv/bin/activate   # On Windows, use: venv\Scripts\activate
+source venv/bin/activate  
 ```
 
 Install all requirements:
@@ -110,4 +110,4 @@ Follow the notebook cells sequentially:
 - **Efficient PySpark Pipeline:** The workflow is entirely modular, using PySpark DataFrames and UDFs for scalable performance.
 - **Robust Data Processing:** Handles deeply nested JSON structures and edge cases in the raw API data.
 - **Flexible Analysis:** Easily filter, rank, and analyze movies by any KPI or custom query.
-- **Professional Visualization:** High-quality plots using Matplotlib/Seaborn after converting to Pandas DataFrames.
+- **Professional Visualization:** High-quality plots using Matplotlib after converting to Pandas DataFrames.
