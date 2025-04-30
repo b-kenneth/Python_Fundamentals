@@ -1,0 +1,81 @@
+version: "3.8"
+
+services:
+  spark:
+    image: docker.io/bitnami/spark:3.5
+    environment:
+      - SPARK_MODE=master
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+      - SPARK_USER=spark
+    ports:
+      - "8080:8080"   # Spark master UI
+      - "4040:4040"   # Spark app UI (when something is running)
+    volumes:
+      - ../data/events:/opt/spark/data/events:ro
+    networks:
+      - datapipeline
+
+  spark-worker:
+    image: docker.io/bitnami/spark:3.5
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark:7077
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_WORKER_CORES=1
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+      - SPARK_USER=spark
+    depends_on:
+      - spark
+    networks:
+      - datapipeline
+
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    ports:
+      - "5432:5432"
+    volumes:
+      - ../db/pgdata:/var/lib/postgresql/data
+      - ../db/postgres_setup.sql:/docker-entrypoint-initdb.d/postgres_setup.sql
+    networks:
+      - datapipeline
+
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "8081:80"
+    depends_on:
+      - postgres
+    networks:
+      - datapipeline
+
+  generator:
+    build:
+      context: ../
+      dockerfile: docker/dockerfile.generator
+    volumes:
+      - ../data/events:/opt/generator/data/events
+    depends_on:
+      - spark
+    networks:
+      - datapipeline
+
+networks:
+  datapipeline:
+
+volumes:
+  pgadmin_data:

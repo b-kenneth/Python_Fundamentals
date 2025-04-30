@@ -1,0 +1,7 @@
+FROM python:3.10-slim
+
+WORKDIR /opt/generator
+COPY src/data_generator.py .
+RUN pip install pandas faker
+
+CMD ["python", "data_generator.py"]
