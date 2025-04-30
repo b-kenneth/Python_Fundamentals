@@ -1,0 +1,9 @@
+FROM bitnami/spark:3.5.0
+
+USER root
+RUN install_packages python3 python3-pip && \
+    pip3 install pandas pyspark psycopg2-binary
+
+COPY src/spark_streaming_to_postgres.py /opt/spark/app/
+WORKDIR /opt/spark/app
+# spark-submit /opt/spark/app/your_test_script.py
