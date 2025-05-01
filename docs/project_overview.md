@@ -52,7 +52,7 @@ This project implements a real-time data pipeline that simulates an e-commerce p
 
 ### System Architecture Diagram
 
-> _Refer to `docs/system_architecture.png` for a visual illustration of the data pipeline, showing the interaction between the data generator, Spark, PostgreSQL, and the monitoring tools._
+![System Architechture](../docs/system_architechture.png)
 
 ---
 

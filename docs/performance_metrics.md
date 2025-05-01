@@ -1,6 +1,4 @@
-# performance_metrics.md
-
-## Real-Time Data Pipeline Performance Metrics
+# Real-Time Data Pipeline Performance Metrics
 
 This document summarizes the observed latency and throughput of the real-time data pipeline.
 
