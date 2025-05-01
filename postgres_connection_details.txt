@@ -1,0 +1,6 @@
+Host: postgres
+Port: 5432
+User: postguser
+Password: postgpass
+Database: commercedb
+
