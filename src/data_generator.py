@@ -48,7 +48,7 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
     while True:
         generate_csv_file(output_dir, num_events=random.randint(10, 50))
-        time.sleep(3)  # Wait 3 seconds before creating next file
+        time.sleep(5)  # Wait 5 seconds before creating next file
 
 if __name__ == "__main__":
     main()

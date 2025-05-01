@@ -6,6 +6,8 @@ services:
     build:
       context: ../
       dockerfile: docker/dockerfile.spark
+    env_file:
+      - ../.env
     environment:
       - SPARK_MODE=master
       - SPARK_RPC_AUTHENTICATION_ENABLED=no
@@ -20,6 +22,7 @@ services:
     volumes:
       - ../data/events:/opt/spark/data/events:ro
       - ../src/data_generator.py:/opt/spark/app/data_generator.py:ro
+      - ../jars/postgresql-42.7.5.jar:/opt/spark/jars/postgresql-42.7.5.jar:ro
     networks:
       - datapipeline
 

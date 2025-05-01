@@ -5,3 +5,7 @@ COPY src/data_generator.py .
 RUN pip install pandas faker
 
 CMD ["python", "data_generator.py"]
+
+
+# docker exec -it compose-spark-1 bash
+# spark-submit --jars /opt/spark/jars/postgresql-42.7.5.jar /opt/spark/app/spark_streaming_to_postgres.py
