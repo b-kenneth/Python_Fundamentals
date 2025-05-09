@@ -2,6 +2,4 @@
 
 venv310/
 
-jars/
-
-db/
+# jars/

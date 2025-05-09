@@ -1,6 +1,8 @@
 import json
 import time
+import os
 import random
+from utils import wait_for_kafka
 from kafka import KafkaProducer
 from data_generator import (
     create_customer_profiles, 
@@ -8,7 +10,8 @@ from data_generator import (
 )
 
 # Kafka configuration parameters
-KAFKA_BOOTSTRAP_SERVERS = 'localhost:9092'
+# KAFKA_BOOTSTRAP_SERVERS = 'localhost:9092'
+KAFKA_BOOTSTRAP_SERVERS = os.environ.get('KAFKA_BOOTSTRAP_SERVERS', 'localhost:9092')
 KAFKA_TOPIC = 'customer-heartbeats'
 
 # Generator parameters
@@ -51,6 +54,7 @@ def produce_to_kafka(producer, records):
 
 def run_generator():
     """Main function to run the heart beat data generator"""
+    wait_for_kafka()
     producer = create_kafka_producer()
     if not producer:
         print("Failed to create Kafka producer. Exiting.")

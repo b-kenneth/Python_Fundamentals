@@ -3,6 +3,7 @@ import time
 import os
 import psycopg2
 from psycopg2 import sql
+from utils import wait_for_kafka, wait_for_postgres
 from kafka import KafkaConsumer
 from datetime import datetime
 
@@ -11,16 +12,28 @@ POSTGRES_PASSWORD = os.getenv('POSTGRES_PASSWORD')
 DB_NAME = os.getenv('DB_NAME')
 
 # Kafka configuration
-KAFKA_BOOTSTRAP_SERVERS = 'localhost:9092'
+# KAFKA_BOOTSTRAP_SERVERS = 'localhost:9092'
+KAFKA_BOOTSTRAP_SERVERS = os.environ.get('KAFKA_BOOTSTRAP_SERVERS', 'localhost:9092')
+
 KAFKA_TOPIC = 'customer-heartbeats'
 KAFKA_CONSUMER_GROUP = 'heartbeat-consumer-group'
 
+# Update these lines in your consumer code
+
+
+
 # PostgreSQL configuration
-PG_HOST = 'localhost'
-PG_PORT = 5432
-PG_DATABASE = DB_NAME
-PG_USER = POSTGRES_USER
-PG_PASSWORD = POSTGRES_PASSWORD
+PG_HOST = os.environ.get('PG_HOST', 'localhost')
+PG_PORT = int(os.environ.get('PG_PORT', '5432'))
+PG_DATABASE = os.environ.get('PG_DATABASE')
+PG_USER = os.environ.get('PG_USER')
+PG_PASSWORD = os.environ.get('PG_PASSWORD')
+
+# PG_HOST = 'localhost'
+# PG_PORT = 5432
+# PG_DATABASE = DB_NAME
+# PG_USER = POSTGRES_USER
+# PG_PASSWORD = POSTGRES_PASSWORD
 
 # Validation thresholds
 MIN_HEART_RATE = 30  # Lower than generator to catch most values
@@ -168,6 +181,8 @@ def process_messages(consumer, conn):
 
 def run_consumer():
     """Main function to run the heart beat data consumer"""
+    wait_for_kafka()
+    wait_for_postgres()
     consumer = create_kafka_consumer()
     if not consumer:
         print("Failed to create Kafka consumer. Exiting.")
