@@ -1,0 +1,13 @@
+user_id,session_id,actions,product_id,price,event_time,user_agent
+10008,97353e6e-210b-4f7c-b7cb-74cd58ee0092,purchase,167,412.89,2025-05-09T13:19:32.430243,Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+10117,a107aebd-b3be-47b6-94ac-682e22907fc8,view,192,,2025-05-09T13:19:32.430286,Mozilla/5.0 (Linux; Android 10)
+10121,a416c7d0-b667-4dd5-9e4c-e5493c00ecba,purchase,170,475.19,2025-05-09T13:19:32.430317,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)
+10199,bc40af84-a895-444e-9c63-619dc4aa1ccd,view,101,,2025-05-09T13:19:32.430346,Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+10022,fbc99bfa-ad59-4201-99c2-04accccdc7e3,view,141,,2025-05-09T13:19:32.430372,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)
+10145,e67111d3-3afd-419b-a753-7b3a0a5bb5c1,purchase,178,195.31,2025-05-09T13:19:32.430400,Mozilla/5.0 (Linux; Android 10)
+10109,209a5b5f-4faf-43d6-b1c8-c37986c5da43,purchase,154,357.54,2025-05-09T13:19:32.430429,Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+10031,802a0f54-a152-4096-a8f7-d99053ae5d65,view,195,,2025-05-09T13:19:32.430458,Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1)
+10105,45e4b759-5b5d-42ce-a21d-fe5a2aac8213,purchase,113,177.0,2025-05-09T13:19:32.430486,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)
+10014,ede95258-4507-4526-bd5b-7df246e5cdb0,view,123,,2025-05-09T13:19:32.430512,Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+10164,ec087d68-cb64-4c65-a62f-4d94e5c54450,purchase,186,436.0,2025-05-09T13:19:32.430541,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)
+10052,65683ac0-1b41-4cc3-9a7e-46123bba1c71,view,195,,2025-05-09T13:19:32.430569,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)
