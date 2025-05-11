@@ -3,24 +3,22 @@ import time
 import os
 import psycopg2
 from psycopg2 import sql
-from utils import wait_for_kafka, wait_for_postgres
+from utils import wait_for_kafka, wait_for_postgres, setup_logging
 from kafka import KafkaConsumer
 from datetime import datetime
+
+# Setup logging
+logger = setup_logging('heartbeat-consumer', log_file='logs\heartbeat_consumer.log')
 
 POSTGRES_USER = os.getenv('POSTGRES_USER')
 POSTGRES_PASSWORD = os.getenv('POSTGRES_PASSWORD')
 DB_NAME = os.getenv('DB_NAME')
 
 # Kafka configuration
-# KAFKA_BOOTSTRAP_SERVERS = 'localhost:9092'
 KAFKA_BOOTSTRAP_SERVERS = os.environ.get('KAFKA_BOOTSTRAP_SERVERS', 'localhost:9092')
 
 KAFKA_TOPIC = 'customer-heartbeats'
 KAFKA_CONSUMER_GROUP = 'heartbeat-consumer-group'
-
-# Update these lines in your consumer code
-
-
 
 # PostgreSQL configuration
 PG_HOST = os.environ.get('PG_HOST', 'localhost')
@@ -28,12 +26,6 @@ PG_PORT = int(os.environ.get('PG_PORT', '5432'))
 PG_DATABASE = os.environ.get('PG_DATABASE')
 PG_USER = os.environ.get('PG_USER')
 PG_PASSWORD = os.environ.get('PG_PASSWORD')
-
-# PG_HOST = 'localhost'
-# PG_PORT = 5432
-# PG_DATABASE = DB_NAME
-# PG_USER = POSTGRES_USER
-# PG_PASSWORD = POSTGRES_PASSWORD
 
 # Validation thresholds
 MIN_HEART_RATE = 30  # Lower than generator to catch most values
@@ -51,10 +43,10 @@ def create_kafka_consumer():
             enable_auto_commit=False,  # Manual commit for better control
             max_poll_interval_ms=300000  # 5 minutes
         )
-        print(f"Connected to Kafka at {KAFKA_BOOTSTRAP_SERVERS}")
+        logger.info(f"Connected to Kafka at {KAFKA_BOOTSTRAP_SERVERS}")
         return consumer
     except Exception as e:
-        print(f"Failed to connect to Kafka: {e}")
+        logger.error(f"Failed to connect to Kafka: {e}", exc_info=True)
         return None
 
 def create_db_connection():
@@ -67,10 +59,10 @@ def create_db_connection():
             user=PG_USER,
             password=PG_PASSWORD
         )
-        print(f"Connected to PostgreSQL at {PG_HOST}:{PG_PORT}/{PG_DATABASE}")
+        logger.info(f"Connected to PostgreSQL at {PG_HOST}:{PG_PORT}/{PG_DATABASE}")
         return conn
     except Exception as e:
-        print(f"Failed to connect to PostgreSQL: {e}")
+        logger.error(f"Failed to connect to PostgreSQL: {e}", exc_info=True)
         return None
 
 def is_valid_heart_rate(heart_rate):
@@ -136,10 +128,10 @@ def insert_to_db(conn, records):
             inserted_count += 1
         
         conn.commit()
-        print(f"Inserted {inserted_count} records into the database")
+        logger.info(f"Inserted {inserted_count} records into the database")
     except Exception as e:
         conn.rollback()
-        print(f"Database error: {e}")
+        logger.error(f"Database error: {e}", exc_info=True)
     finally:
         cursor.close()
     
@@ -153,6 +145,7 @@ def process_messages(consumer, conn):
         
         valid_records = []
         processed_count = 0
+        error_count = 0
         
         # Process each message
         for topic_partition, partition_messages in messages.items():
@@ -164,8 +157,10 @@ def process_messages(consumer, conn):
                 
                 if is_valid:
                     valid_records.append(message.value)
+                    logger.debug(f"Valid record processed: {message.value}")
                 else:
-                    print(f"Invalid record: {validation_message}, Record: {message.value}")
+                    error_count += 1
+                    logger.warning(f"Invalid record: {validation_message}, Record: {message.value}")
         
         # Insert valid records into the database
         if valid_records:
@@ -174,48 +169,78 @@ def process_messages(consumer, conn):
         # Commit offsets for processed messages
         consumer.commit()
         
+        if processed_count > 0:
+            logger.info(f"Processed batch: {processed_count} messages, {len(valid_records)} valid, {error_count} invalid")
+        
         return processed_count
     except Exception as e:
-        print(f"Error processing messages: {e}")
+        logger.error(f"Error processing messages: {e}", exc_info=True)
         return 0
 
 def run_consumer():
     """Main function to run the heart beat data consumer"""
-    wait_for_kafka()
-    wait_for_postgres()
+    logger.info("Starting heartbeat data consumer")
+    
+    # Use logger for waiting functions
+    wait_for_kafka(logger=logger)
+    wait_for_postgres(logger=logger)
+    
     consumer = create_kafka_consumer()
     if not consumer:
-        print("Failed to create Kafka consumer. Exiting.")
+        logger.critical("Failed to create Kafka consumer. Exiting.")
         return
     
     conn = create_db_connection()
     if not conn:
-        print("Failed to connect to PostgreSQL. Exiting.")
+        logger.critical("Failed to connect to PostgreSQL. Exiting.")
         if consumer:
             consumer.close()
         return
     
-    print(f"Starting heart beat data consumer")
-    print(f"Consuming from topic: {KAFKA_TOPIC}")
+    logger.info(f"Starting heart beat data consumer")
+    logger.info(f"Consuming from topic: {KAFKA_TOPIC}")
+    
+    # Track metrics
+    start_time = time.time()
+    total_processed = 0
     
     try:
         while True:
             processed_count = process_messages(consumer, conn)
+            total_processed += processed_count
+            
+            # Log statistics every 5 minutes
+            current_time = time.time()
+            if current_time - start_time > 300:  # 5 minutes
+                elapsed_minutes = (current_time - start_time) / 60
+                msg_per_minute = total_processed / elapsed_minutes if elapsed_minutes > 0 else 0
+                logger.info(f"Performance: Processed {total_processed} messages in {elapsed_minutes:.1f} minutes ({msg_per_minute:.1f}/min)")
+                # Reset counters
+                start_time = current_time
+                total_processed = 0
             
             if processed_count == 0:
                 # If no messages were processed, sleep briefly to avoid busy waiting
                 time.sleep(0.1)
     except KeyboardInterrupt:
-        print("Stopping heart beat data consumer")
+        logger.info("Stopping heart beat data consumer due to keyboard interrupt")
+    except Exception as e:
+        logger.critical(f"Unexpected error in consumer: {e}", exc_info=True)
     finally:
         # Close connections
         if consumer:
-            consumer.close()
-            print("Kafka consumer closed")
+            try:
+                consumer.close()
+                logger.info("Kafka consumer closed")
+            except Exception as e:
+                logger.error(f"Error closing Kafka consumer: {e}")
         
         if conn:
-            conn.close()
-            print("PostgreSQL connection closed")
+            try:
+                conn.close()
+                logger.info("PostgreSQL connection closed")
+            except Exception as e:
+                logger.error(f"Error closing PostgreSQL connection: {e}")
 
 if __name__ == "__main__":
     run_consumer()
