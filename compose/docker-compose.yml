@@ -24,6 +24,7 @@ services:
       - ../src/data_generator.py:/opt/spark/app/data_generator.py:ro
       - ../src/spark_streaming_to_postgres.py:/opt/spark/app/spark_streaming_to_postgres.py:ro
       - ../jars/postgresql-42.7.5.jar:/opt/spark/jars/postgresql-42.7.5.jar:ro
+      - ./logs:/opt/spark/logs
     networks:
       - datapipeline
     command: >
@@ -88,6 +89,7 @@ services:
       dockerfile: docker/dockerfile.generator
     volumes:
       - ../data/events:/opt/generator/data/events
+      - ../logs:/opt/generator/logs
     depends_on:
       - spark
     networks:

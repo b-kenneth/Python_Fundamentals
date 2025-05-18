@@ -1,0 +1,354 @@
+2025-05-18 21:34:06,983 [INFO] Starting Spark streaming job
+2025-05-18 21:34:14,600 [INFO] Callback Server Starting
+2025-05-18 21:34:14,600 [INFO] Socket listening on ('127.0.0.1', 40067)
+2025-05-18 21:34:16,663 [INFO] Python Server ready to receive messages
+2025-05-18 21:34:16,663 [INFO] Received command c on object id p0
+2025-05-18 21:34:16,668 [INFO] Processing batch 0
+2025-05-18 21:34:24,173 [INFO] Batch 0 written to Postgres: 184 rows.
+2025-05-18 21:34:25,106 [INFO] Received command c on object id p0
+2025-05-18 21:34:25,120 [INFO] Processing batch 1
+2025-05-18 21:34:27,648 [INFO] Batch 1 written to Postgres: 69 rows.
+2025-05-18 21:34:28,440 [INFO] Received command c on object id p0
+2025-05-18 21:34:28,452 [INFO] Processing batch 2
+2025-05-18 21:34:30,363 [INFO] Batch 2 written to Postgres: 29 rows.
+2025-05-18 21:34:32,449 [INFO] Received command c on object id p0
+2025-05-18 21:34:32,457 [INFO] Processing batch 3
+2025-05-18 21:34:33,503 [INFO] Batch 3 written to Postgres: 12 rows.
+2025-05-18 21:34:37,243 [INFO] Received command c on object id p0
+2025-05-18 21:34:37,247 [INFO] Processing batch 4
+2025-05-18 21:34:38,258 [INFO] Batch 4 written to Postgres: 40 rows.
+2025-05-18 21:34:42,248 [INFO] Received command c on object id p0
+2025-05-18 21:34:42,253 [INFO] Processing batch 5
+2025-05-18 21:34:42,985 [INFO] Batch 5 written to Postgres: 31 rows.
+2025-05-18 21:34:47,227 [INFO] Received command c on object id p0
+2025-05-18 21:34:47,232 [INFO] Processing batch 6
+2025-05-18 21:34:47,848 [INFO] Batch 6 written to Postgres: 38 rows.
+2025-05-18 21:34:52,216 [INFO] Received command c on object id p0
+2025-05-18 21:34:52,224 [INFO] Processing batch 7
+2025-05-18 21:34:52,826 [INFO] Batch 7 written to Postgres: 46 rows.
+2025-05-18 21:34:57,195 [INFO] Received command c on object id p0
+2025-05-18 21:34:57,198 [INFO] Processing batch 8
+2025-05-18 21:34:57,774 [INFO] Batch 8 written to Postgres: 32 rows.
+2025-05-18 21:35:02,281 [INFO] Received command c on object id p0
+2025-05-18 21:35:02,286 [INFO] Processing batch 9
+2025-05-18 21:35:02,888 [INFO] Batch 9 written to Postgres: 32 rows.
+2025-05-18 21:35:07,272 [INFO] Received command c on object id p0
+2025-05-18 21:35:07,276 [INFO] Processing batch 10
+2025-05-18 21:35:07,865 [INFO] Batch 10 written to Postgres: 10 rows.
+2025-05-18 21:35:12,272 [INFO] Received command c on object id p0
+2025-05-18 21:35:12,275 [INFO] Processing batch 11
+2025-05-18 21:35:12,874 [INFO] Batch 11 written to Postgres: 45 rows.
+2025-05-18 21:35:17,260 [INFO] Received command c on object id p0
+2025-05-18 21:35:17,263 [INFO] Processing batch 12
+2025-05-18 21:35:17,794 [INFO] Batch 12 written to Postgres: 49 rows.
+2025-05-18 21:35:22,332 [INFO] Received command c on object id p0
+2025-05-18 21:35:22,336 [INFO] Processing batch 13
+2025-05-18 21:35:22,891 [INFO] Batch 13 written to Postgres: 29 rows.
+2025-05-18 21:35:27,320 [INFO] Received command c on object id p0
+2025-05-18 21:35:27,324 [INFO] Processing batch 14
+2025-05-18 21:35:27,848 [INFO] Batch 14 written to Postgres: 18 rows.
+2025-05-18 21:35:32,324 [INFO] Received command c on object id p0
+2025-05-18 21:35:32,327 [INFO] Processing batch 15
+2025-05-18 21:35:32,831 [INFO] Batch 15 written to Postgres: 35 rows.
+2025-05-18 21:35:37,468 [INFO] Received command c on object id p0
+2025-05-18 21:35:37,479 [INFO] Processing batch 16
+2025-05-18 21:35:39,128 [INFO] Batch 16 written to Postgres: 35 rows.
+2025-05-18 21:35:42,329 [INFO] Received command c on object id p0
+2025-05-18 21:35:42,333 [INFO] Processing batch 17
+2025-05-18 21:35:42,897 [INFO] Batch 17 written to Postgres: 41 rows.
+2025-05-18 21:35:47,341 [INFO] Received command c on object id p0
+2025-05-18 21:35:47,345 [INFO] Processing batch 18
+2025-05-18 21:35:47,896 [INFO] Batch 18 written to Postgres: 32 rows.
+2025-05-18 21:35:52,404 [INFO] Received command c on object id p0
+2025-05-18 21:35:52,408 [INFO] Processing batch 19
+2025-05-18 21:35:52,983 [INFO] Batch 19 written to Postgres: 15 rows.
+2025-05-18 21:35:57,378 [INFO] Received command c on object id p0
+2025-05-18 21:35:57,382 [INFO] Processing batch 20
+2025-05-18 21:35:57,820 [INFO] Batch 20 written to Postgres: 20 rows.
+2025-05-18 21:36:02,461 [INFO] Received command c on object id p0
+2025-05-18 21:36:02,465 [INFO] Processing batch 21
+2025-05-18 21:36:03,100 [INFO] Batch 21 written to Postgres: 49 rows.
+2025-05-18 21:36:07,521 [INFO] Received command c on object id p0
+2025-05-18 21:36:07,527 [INFO] Processing batch 22
+2025-05-18 21:36:08,230 [INFO] Batch 22 written to Postgres: 21 rows.
+2025-05-18 21:36:12,379 [INFO] Received command c on object id p0
+2025-05-18 21:36:12,383 [INFO] Processing batch 23
+2025-05-18 21:36:12,909 [INFO] Batch 23 written to Postgres: 20 rows.
+2025-05-18 21:36:17,405 [INFO] Received command c on object id p0
+2025-05-18 21:36:17,410 [INFO] Processing batch 24
+2025-05-18 21:36:17,918 [INFO] Batch 24 written to Postgres: 35 rows.
+2025-05-18 21:36:22,422 [INFO] Received command c on object id p0
+2025-05-18 21:36:22,426 [INFO] Processing batch 25
+2025-05-18 21:36:22,939 [INFO] Batch 25 written to Postgres: 19 rows.
+2025-05-18 21:36:27,603 [INFO] Received command c on object id p0
+2025-05-18 21:36:27,608 [INFO] Processing batch 26
+2025-05-18 21:36:28,134 [INFO] Batch 26 written to Postgres: 26 rows.
+2025-05-18 21:36:32,430 [INFO] Received command c on object id p0
+2025-05-18 21:36:32,434 [INFO] Processing batch 27
+2025-05-18 21:36:32,888 [INFO] Batch 27 written to Postgres: 49 rows.
+2025-05-18 21:36:37,508 [INFO] Received command c on object id p0
+2025-05-18 21:36:37,512 [INFO] Processing batch 28
+2025-05-18 21:36:38,003 [INFO] Batch 28 written to Postgres: 39 rows.
+2025-05-18 21:36:42,515 [INFO] Received command c on object id p0
+2025-05-18 21:36:42,519 [INFO] Processing batch 29
+2025-05-18 21:36:43,002 [INFO] Batch 29 written to Postgres: 26 rows.
+2025-05-18 21:36:47,463 [INFO] Received command c on object id p0
+2025-05-18 21:36:47,466 [INFO] Processing batch 30
+2025-05-18 21:36:47,982 [INFO] Batch 30 written to Postgres: 48 rows.
+2025-05-18 21:36:52,543 [INFO] Received command c on object id p0
+2025-05-18 21:36:52,548 [INFO] Processing batch 31
+2025-05-18 21:36:53,076 [INFO] Batch 31 written to Postgres: 47 rows.
+2025-05-18 21:36:57,533 [INFO] Received command c on object id p0
+2025-05-18 21:36:57,536 [INFO] Processing batch 32
+2025-05-18 21:36:58,001 [INFO] Batch 32 written to Postgres: 19 rows.
+2025-05-18 21:37:02,667 [INFO] Received command c on object id p0
+2025-05-18 21:37:02,670 [INFO] Processing batch 33
+2025-05-18 21:37:03,194 [INFO] Batch 33 written to Postgres: 23 rows.
+2025-05-18 21:37:07,500 [INFO] Received command c on object id p0
+2025-05-18 21:37:07,504 [INFO] Processing batch 34
+2025-05-18 21:37:07,949 [INFO] Batch 34 written to Postgres: 46 rows.
+2025-05-18 21:37:12,494 [INFO] Received command c on object id p0
+2025-05-18 21:37:12,498 [INFO] Processing batch 35
+2025-05-18 21:37:12,887 [INFO] Batch 35 written to Postgres: 49 rows.
+2025-05-18 21:37:17,552 [INFO] Received command c on object id p0
+2025-05-18 21:37:17,555 [INFO] Processing batch 36
+2025-05-18 21:37:18,044 [INFO] Batch 36 written to Postgres: 47 rows.
+2025-05-18 21:37:22,668 [INFO] Received command c on object id p0
+2025-05-18 21:37:22,674 [INFO] Processing batch 37
+2025-05-18 21:37:23,360 [INFO] Batch 37 written to Postgres: 44 rows.
+2025-05-18 21:37:27,518 [INFO] Received command c on object id p0
+2025-05-18 21:37:27,522 [INFO] Processing batch 38
+2025-05-18 21:37:28,044 [INFO] Batch 38 written to Postgres: 34 rows.
+2025-05-18 21:37:32,537 [INFO] Received command c on object id p0
+2025-05-18 21:37:32,540 [INFO] Processing batch 39
+2025-05-18 21:37:33,000 [INFO] Batch 39 written to Postgres: 24 rows.
+2025-05-18 21:37:37,674 [INFO] Received command c on object id p0
+2025-05-18 21:37:37,677 [INFO] Processing batch 40
+2025-05-18 21:37:38,098 [INFO] Batch 40 written to Postgres: 38 rows.
+2025-05-18 21:37:42,520 [INFO] Received command c on object id p0
+2025-05-18 21:37:42,525 [INFO] Processing batch 41
+2025-05-18 21:37:42,951 [INFO] Batch 41 written to Postgres: 30 rows.
+2025-05-18 21:37:47,591 [INFO] Received command c on object id p0
+2025-05-18 21:37:47,594 [INFO] Processing batch 42
+2025-05-18 21:37:51,688 [ERROR] Error processing batch 42
+2025-05-18 21:37:51,737 [ERROR] Traceback (most recent call last):
+  File "/opt/spark/app/spark_streaming_to_postgres.py", line 51, in process_batch
+    cleaned.write.jdbc(
+  File "/opt/bitnami/spark/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 1984, in jdbc
+    self.mode(mode)._jwrite.jdbc(url, table, jprop)
+  File "/opt/bitnami/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+                   ^^^^^^^^^^^^^^^^^
+  File "/opt/bitnami/spark/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 179, in deco
+    return f(*a, **kw)
+           ^^^^^^^^^^^
+  File "/opt/bitnami/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o773.jdbc.
+: org.postgresql.util.PSQLException: The connection attempt failed.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:364)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.BasicConnectionProvider.getConnection(BasicConnectionProvider.scala:49)
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.ConnectionProviderBase.create(ConnectionProvider.scala:102)
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1(JdbcDialects.scala:160)
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1$adapted(JdbcDialects.scala:156)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:50)
+	at org.apache.spark.sql.execution.datasources.SaveIntoDataSourceCommand.run(SaveIntoDataSourceCommand.scala:48)
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult$lzycompute(commands.scala:75)
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult(commands.scala:73)
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.executeCollect(commands.scala:84)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:248)
+	at org.apache.spark.sql.DataFrameWriter.jdbc(DataFrameWriter.scala:756)
+	at jdk.internal.reflect.GeneratedMethodAccessor84.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.sendCommand(ClientServerConnection.java:244)
+	at py4j.CallbackClient.sendCommand(CallbackClient.java:384)
+	at py4j.CallbackClient.sendCommand(CallbackClient.java:356)
+	at py4j.reflection.PythonProxyHandler.invoke(PythonProxyHandler.java:106)
+	at jdk.proxy3/jdk.proxy3.$Proxy31.call(Unknown Source)
+	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1(ForeachBatchSink.scala:53)
+	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1$adapted(ForeachBatchSink.scala:53)
+	at org.apache.spark.sql.execution.streaming.sources.ForeachBatchSink.addBatch(ForeachBatchSink.scala:34)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$17(MicroBatchExecution.scala:732)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$16(MicroBatchExecution.scala:729)
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:427)
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:425)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:67)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runBatch(MicroBatchExecution.scala:729)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$2(MicroBatchExecution.scala:286)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:427)
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:425)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:67)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$1(MicroBatchExecution.scala:249)
+	at org.apache.spark.sql.execution.streaming.ProcessingTimeExecutor.execute(TriggerExecutor.scala:67)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runActivatedStream(MicroBatchExecution.scala:239)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.$anonfun$runStream$1(StreamExecution.scala:311)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.org$apache$spark$sql$execution$streaming$StreamExecution$$runStream(StreamExecution.scala:289)
+	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.$anonfun$run$1(StreamExecution.scala:211)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.run(StreamExecution.scala:211)
+Caused by: java.net.UnknownHostException: postgres
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:572)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:260)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:121)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:140)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:268)
+	... 82 more
+
+
+2025-05-18 21:37:52,626 [INFO] Received command c on object id p0
+2025-05-18 21:37:52,630 [INFO] Processing batch 43
+2025-05-18 21:37:52,809 [ERROR] Error processing batch 43
+2025-05-18 21:37:52,858 [ERROR] Traceback (most recent call last):
+  File "/opt/spark/app/spark_streaming_to_postgres.py", line 51, in process_batch
+    cleaned.write.jdbc(
+  File "/opt/bitnami/spark/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 1984, in jdbc
+    self.mode(mode)._jwrite.jdbc(url, table, jprop)
+  File "/opt/bitnami/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+                   ^^^^^^^^^^^^^^^^^
+  File "/opt/bitnami/spark/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 179, in deco
+    return f(*a, **kw)
+           ^^^^^^^^^^^
+  File "/opt/bitnami/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o792.jdbc.
+: org.postgresql.util.PSQLException: The connection attempt failed.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:364)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.BasicConnectionProvider.getConnection(BasicConnectionProvider.scala:49)
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.ConnectionProviderBase.create(ConnectionProvider.scala:102)
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1(JdbcDialects.scala:160)
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1$adapted(JdbcDialects.scala:156)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:50)
+	at org.apache.spark.sql.execution.datasources.SaveIntoDataSourceCommand.run(SaveIntoDataSourceCommand.scala:48)
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult$lzycompute(commands.scala:75)
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult(commands.scala:73)
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.executeCollect(commands.scala:84)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:248)
+	at org.apache.spark.sql.DataFrameWriter.jdbc(DataFrameWriter.scala:756)
+	at jdk.internal.reflect.GeneratedMethodAccessor84.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.sendCommand(ClientServerConnection.java:244)
+	at py4j.CallbackClient.sendCommand(CallbackClient.java:384)
+	at py4j.CallbackClient.sendCommand(CallbackClient.java:356)
+	at py4j.reflection.PythonProxyHandler.invoke(PythonProxyHandler.java:106)
+	at jdk.proxy3/jdk.proxy3.$Proxy31.call(Unknown Source)
+	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1(ForeachBatchSink.scala:53)
+	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1$adapted(ForeachBatchSink.scala:53)
+	at org.apache.spark.sql.execution.streaming.sources.ForeachBatchSink.addBatch(ForeachBatchSink.scala:34)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$17(MicroBatchExecution.scala:732)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$16(MicroBatchExecution.scala:729)
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:427)
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:425)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:67)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runBatch(MicroBatchExecution.scala:729)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$2(MicroBatchExecution.scala:286)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:427)
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:425)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:67)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$1(MicroBatchExecution.scala:249)
+	at org.apache.spark.sql.execution.streaming.ProcessingTimeExecutor.execute(TriggerExecutor.scala:67)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runActivatedStream(MicroBatchExecution.scala:239)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.$anonfun$runStream$1(StreamExecution.scala:311)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.org$apache$spark$sql$execution$streaming$StreamExecution$$runStream(StreamExecution.scala:289)
+	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.$anonfun$run$1(StreamExecution.scala:211)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.run(StreamExecution.scala:211)
+Caused by: java.net.UnknownHostException: postgres
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:572)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:260)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:121)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:140)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:268)
+	... 82 more
+
+
