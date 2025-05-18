@@ -117,24 +117,7 @@ docker-compose up --build
 
 ---
 
-## Step 6: Run/Verify Spark Streaming Job
-
-1. **If not running via Docker entrypoint, launch manually:**
-
-    ```bash
-    docker exec -it compose-spark-1 bash
-    spark-submit --jars /opt/spark/jars/postgresql-xx.x.x.jar /opt/spark/app/spark_streaming_to_postgres.py
-    ```
-
-    - Replace `xx.x.x` with your JDBC driver version if needed.
-    - The job will continue running, processing new CSVs as they arrive.
-
-2. **Observe the Spark UI**  
-   - [http://localhost:4040](http://localhost:4040) will show micro-batch processing, input rate, and batch statistics.
-
----
-
-## Step 7: Verify Data in PostgreSQL
+## Step 6: Verify Data in PostgreSQL
 
 - In pgAdmin, browse the `events` table in the `sparkdb` database.
 - Confirm new rows appear as data is generated and processed.
