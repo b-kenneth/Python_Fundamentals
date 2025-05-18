@@ -41,9 +41,10 @@ real_time_data_pipeline/
 │   └── spark_streaming_to_postgres.py
 ├── jars/
 │   └── postgresql-xx.x.x.jar   # download PostgreSQL JDBC driver & create folder
-├── docs/
+├── docs/s
 │   ├── project_overview.md
 │   └── (other .md and .png deliverables)
+└── logs/
 └── postgres_connection_details.txt
 ```
 
