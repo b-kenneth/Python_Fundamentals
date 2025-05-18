@@ -17,14 +17,20 @@ services:
       - SPARK_USER=spark
 
     ports:
-      - "8080:8080"   # Spark master UI
-      - "4040:4040"   # Spark app UI (when something is running)
+      - "8080:8080"
+      - "4040:4040"
     volumes:
       - ../data/events:/opt/spark/data/events:ro
       - ../src/data_generator.py:/opt/spark/app/data_generator.py:ro
+      - ../src/spark_streaming_to_postgres.py:/opt/spark/app/spark_streaming_to_postgres.py:ro
       - ../jars/postgresql-42.7.5.jar:/opt/spark/jars/postgresql-42.7.5.jar:ro
     networks:
       - datapipeline
+    command: >
+      bash -c "sleep 10 &&
+      /opt/bitnami/spark/bin/spark-submit 
+      --jars /opt/spark/jars/postgresql-42.7.5.jar 
+      /opt/spark/app/spark_streaming_to_postgres.py"
 
   spark-worker:
     image: docker.io/bitnami/spark:3.5
