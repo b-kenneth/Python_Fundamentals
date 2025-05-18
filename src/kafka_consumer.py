@@ -7,8 +7,10 @@ from utils import wait_for_kafka, wait_for_postgres, setup_logging
 from kafka import KafkaConsumer
 from datetime import datetime
 
+os.makedirs('logs', exist_ok=True)
+
 # Setup logging
-logger = setup_logging('heartbeat-consumer', log_file='logs\heartbeat_consumer.log')
+logger = setup_logging('heartbeat-consumer', log_file='logs/heartbeat_consumer.log')
 
 POSTGRES_USER = os.getenv('POSTGRES_USER')
 POSTGRES_PASSWORD = os.getenv('POSTGRES_PASSWORD')

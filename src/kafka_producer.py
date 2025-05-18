@@ -6,8 +6,10 @@ from utils import setup_logging, wait_for_kafka
 from kafka import KafkaProducer
 from data_generator import create_customer_profiles, generate_heart_beat_data
 
+os.makedirs('logs', exist_ok=True)
+
 # Setup logging
-logger = setup_logging('heartbeat-producer', log_file='logs\heartbeat_producer.log')
+logger = setup_logging('heartbeat-producer', log_file='logs/heartbeat_producer.log')
 
 # Kafka configuration parameters
 KAFKA_BOOTSTRAP_SERVERS = os.environ.get('KAFKA_BOOTSTRAP_SERVERS', 'localhost:9092')
