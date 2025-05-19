@@ -1,0 +1,27 @@
+[2025-05-19T21:27:34.824+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T21:27:32.843632+00:00 [queued]>
+[2025-05-19T21:27:34.831+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T21:27:32.843632+00:00 [queued]>
+[2025-05-19T21:27:34.832+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-05-19T21:27:34.846+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): ingest_data> on 2025-05-19 21:27:32.843632+00:00
+[2025-05-19T21:27:34.852+0000] {standard_task_runner.py:60} INFO - Started process 500 to run task
+[2025-05-19T21:27:34.854+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'flight_price_analysis', 'ingest_data', 'manual__2025-05-19T21:27:32.843632+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/flight_price_pipeline.py', '--cfg-path', '/tmp/tmplmx55il8']
+[2025-05-19T21:27:34.855+0000] {standard_task_runner.py:88} INFO - Job 6: Subtask ingest_data
+[2025-05-19T21:27:34.900+0000] {task_command.py:423} INFO - Running <TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T21:27:32.843632+00:00 [running]> on host fb9c3f11be12
+[2025-05-19T21:27:34.970+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='flight_price_analysis' AIRFLOW_CTX_TASK_ID='ingest_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-19T21:27:32.843632+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-19T21:27:32.843632+00:00'
+[2025-05-19T21:27:34.972+0000] {data_ingestion.py:96} ERROR - Error in csv_to_mysql: CSV file not found: data/Flight_Price_Dataset_of_Bangladesh.csv
+[2025-05-19T21:27:34.972+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/tasks/data_ingestion.py", line 34, in csv_to_mysql
+    validate_csv(csv_path)
+  File "/opt/airflow/dags/tasks/data_ingestion.py", line 11, in validate_csv
+    raise FileNotFoundError(f"CSV file not found: {csv_path}")
+FileNotFoundError: CSV file not found: data/Flight_Price_Dataset_of_Bangladesh.csv
+[2025-05-19T21:27:34.985+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=flight_price_analysis, task_id=ingest_data, execution_date=20250519T212732, start_date=20250519T212734, end_date=20250519T212734
+[2025-05-19T21:27:34.995+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 6 for task ingest_data (CSV file not found: data/Flight_Price_Dataset_of_Bangladesh.csv; 500)
+[2025-05-19T21:27:35.028+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-05-19T21:27:35.113+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

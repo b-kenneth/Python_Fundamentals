@@ -1,0 +1,42 @@
+[2025-05-19T21:30:34.284+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T21:30:32.402949+00:00 [queued]>
+[2025-05-19T21:30:34.292+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T21:30:32.402949+00:00 [queued]>
+[2025-05-19T21:30:34.293+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-05-19T21:30:34.307+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): ingest_data> on 2025-05-19 21:30:32.402949+00:00
+[2025-05-19T21:30:34.313+0000] {standard_task_runner.py:60} INFO - Started process 554 to run task
+[2025-05-19T21:30:34.316+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'flight_price_analysis', 'ingest_data', 'manual__2025-05-19T21:30:32.402949+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/flight_price_pipeline.py', '--cfg-path', '/tmp/tmp96_9ae0k']
+[2025-05-19T21:30:34.317+0000] {standard_task_runner.py:88} INFO - Job 8: Subtask ingest_data
+[2025-05-19T21:30:34.360+0000] {task_command.py:423} INFO - Running <TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T21:30:32.402949+00:00 [running]> on host fb9c3f11be12
+[2025-05-19T21:30:34.439+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='flight_price_analysis' AIRFLOW_CTX_TASK_ID='ingest_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-19T21:30:32.402949+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-19T21:30:32.402949+00:00'
+[2025-05-19T21:30:34.483+0000] {data_ingestion.py:16} INFO - CSV validation successful for: /opt/***/dags/data/Flight_Price_Dataset_of_Bangladesh.csv
+[2025-05-19T21:30:34.484+0000] {data_ingestion.py:17} INFO - Columns found: Airline, Source, Source Name, Destination, Destination Name, Departure Date & Time, Arrival Date & Time, Duration (hrs), Stopovers, Aircraft Type, Class, Booking Source, Base Fare (BDT), Tax & Surcharge (BDT), Total Fare (BDT), Seasonality, Days Before Departure
+[2025-05-19T21:30:34.484+0000] {data_ingestion.py:37} INFO - Reading CSV file: /opt/***/dags/data/Flight_Price_Dataset_of_Bangladesh.csv
+[2025-05-19T21:30:35.156+0000] {data_ingestion.py:50} INFO - CSV loaded with 57000 rows and 17 columns
+[2025-05-19T21:30:35.157+0000] {data_ingestion.py:51} INFO - Columns after cleaning: Airline, Source, Source_Name, Destination, Destination_Name, Departure_Date__Time, Arrival_Date__Time, Duration_hrs, Stopovers, Aircraft_Type, Class, Booking_Source, Base_Fare_BDT, Tax__Surcharge_BDT, Total_Fare_BDT, Seasonality, Days_Before_Departure
+[2025-05-19T21:30:35.979+0000] {data_ingestion.py:64} INFO - Inserting data into MySQL table: flight_data
+[2025-05-19T21:30:35.987+0000] {base.py:83} INFO - Using connection ID 'mysql_conn' for task execution.
+[2025-05-19T21:30:36.022+0000] {data_ingestion.py:96} ERROR - Error in csv_to_mysql: (1054, "Unknown column 'Departure_Date__Time' in 'field list'")
+[2025-05-19T21:30:36.023+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/tasks/data_ingestion.py", line 80, in csv_to_mysql
+    cursor.executemany(sql, values)
+  File "/home/airflow/.local/lib/python3.8/site-packages/MySQLdb/cursors.py", line 241, in executemany
+    return self._do_execute_many(
+  File "/home/airflow/.local/lib/python3.8/site-packages/MySQLdb/cursors.py", line 270, in _do_execute_many
+    rows += self.execute(sql + postfix)
+  File "/home/airflow/.local/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/airflow/.local/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/airflow/.local/lib/python3.8/site-packages/MySQLdb/connections.py", line 257, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1054, "Unknown column 'Departure_Date__Time' in 'field list'")
+[2025-05-19T21:30:36.035+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=flight_price_analysis, task_id=ingest_data, execution_date=20250519T213032, start_date=20250519T213034, end_date=20250519T213036
+[2025-05-19T21:30:36.048+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 8 for task ingest_data ((1054, "Unknown column 'Departure_Date__Time' in 'field list'"); 554)
+[2025-05-19T21:30:36.095+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-05-19T21:30:36.113+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

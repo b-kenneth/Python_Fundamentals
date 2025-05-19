@@ -296,6 +296,8 @@ services:
       - "3306:3306"
     volumes:
       - mysql-db-volume:/var/lib/mysql
+      - ./sql/mysql:/docker-entrypoint-initdb.d
+
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p$$MYSQL_ROOT_PASSWORD"]
       interval: 10s
@@ -308,15 +310,17 @@ services:
   postgres-analytics:
     image: postgres:13
     environment:
-      POSTGRES_USER: analytics
-      POSTGRES_PASSWORD: analytics
-      POSTGRES_DB: flight_analytics
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
     ports:
       - "5433:5432"  # Note: Using port 5433 on host to avoid conflict with Airflow's PostgreSQL
     volumes:
       - postgres-analytics-volume:/var/lib/postgresql/data
+      - ./sql/postgres:/docker-entrypoint-initdb.d
+
     healthcheck:
-      test: ["CMD", "pg_isready", "-U", "analytics"]
+      test: ["CMD", "pg_isready", "-U", "postgres"]
       interval: 10s
       retries: 5
       start_period: 5s
