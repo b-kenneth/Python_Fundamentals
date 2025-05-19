@@ -284,5 +284,70 @@ services:
       airflow-init:
         condition: service_completed_successfully
 
+    # Add MySQL as staging database
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: myroot
+      MYSQL_USER: myuser
+      MYSQL_PASSWORD: mypass
+      MYSQL_DATABASE: flight_staging
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-db-volume:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p$$MYSQL_ROOT_PASSWORD"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    restart: always
+
+  # Add PostgreSQL analytics database 
+  postgres-analytics:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: analytics
+      POSTGRES_PASSWORD: analytics
+      POSTGRES_DB: flight_analytics
+    ports:
+      - "5433:5432"  # Note: Using port 5433 on host to avoid conflict with Airflow's PostgreSQL
+    volumes:
+      - postgres-analytics-volume:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "analytics"]
+      interval: 10s
+      retries: 5
+      start_period: 5s
+    restart: always
+
+  # Add database management tools
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    restart: always
+    depends_on:
+      - postgres
+      - postgres-analytics
+
+  
+  adminer:
+    image: adminer
+    ports:
+      - "8081:8080"
+    restart: always
+    depends_on:
+      - postgres
+      - mysql
+      - postgres-analytics
+
+
 volumes:
   postgres-db-volume:
+  mysql-db-volume:
+  postgres-analytics-volume:
