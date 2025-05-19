@@ -1,4 +1,3 @@
-# dags/flight_price_pipeline.py
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
@@ -6,6 +5,7 @@ from datetime import timedelta
 
 # Import task modules
 from tasks.data_ingestion import csv_to_mysql
+from tasks.data_validation import validate_flight_data
 from tasks.utils.logging_config import configure_logging
 
 # Default arguments
@@ -44,5 +44,15 @@ ingest_data = PythonOperator(
     dag=dag
 )
 
+validate_data = PythonOperator(
+    task_id='validate_data',
+    python_callable=validate_flight_data,
+    op_kwargs={
+        'mysql_conn_id': 'mysql_conn',
+        'table_name': 'flight_data'
+    },
+    dag=dag
+)
+
 # Task dependencies
-ingest_data
+ingest_data >> validate_data

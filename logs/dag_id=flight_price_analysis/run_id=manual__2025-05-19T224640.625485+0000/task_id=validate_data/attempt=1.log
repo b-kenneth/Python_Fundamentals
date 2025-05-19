@@ -1,0 +1,24 @@
+[2025-05-19T22:51:53.445+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flight_price_analysis.validate_data manual__2025-05-19T22:46:40.625485+00:00 [queued]>
+[2025-05-19T22:51:53.452+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flight_price_analysis.validate_data manual__2025-05-19T22:46:40.625485+00:00 [queued]>
+[2025-05-19T22:51:53.453+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-05-19T22:51:53.470+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): validate_data> on 2025-05-19 22:46:40.625485+00:00
+[2025-05-19T22:51:53.475+0000] {standard_task_runner.py:60} INFO - Started process 219 to run task
+[2025-05-19T22:51:53.478+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'flight_price_analysis', 'validate_data', 'manual__2025-05-19T22:46:40.625485+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/flight_price_pipeline.py', '--cfg-path', '/tmp/tmp2v5repo0']
+[2025-05-19T22:51:53.480+0000] {standard_task_runner.py:88} INFO - Job 5: Subtask validate_data
+[2025-05-19T22:51:53.527+0000] {task_command.py:423} INFO - Running <TaskInstance: flight_price_analysis.validate_data manual__2025-05-19T22:46:40.625485+00:00 [running]> on host 7753327d0419
+[2025-05-19T22:51:53.593+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='flight_price_analysis' AIRFLOW_CTX_TASK_ID='validate_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-19T22:46:40.625485+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-19T22:46:40.625485+00:00'
+[2025-05-19T22:51:53.602+0000] {base.py:83} INFO - Using connection ID 'mysql_conn' for task execution.
+[2025-05-19T22:51:53.613+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/common/sql/hooks/sql.py:221: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  return psql.read_sql(sql, con=conn, params=parameters, **kwargs)
+
+[2025-05-19T22:51:54.676+0000] {data_validation.py:111} INFO - Fetched 57000 unprocessed rows for validation
+[2025-05-19T22:51:54.723+0000] {data_validation.py:18} INFO - Found 0 missing values before handling
+[2025-05-19T22:51:54.902+0000] {data_validation.py:39} INFO - Remaining missing values after handling: 0
+[2025-05-19T22:51:55.033+0000] {data_validation.py:88} WARNING - Found 7463 rows where Total_Fare doesn't match Base_Fare + Tax_Surcharge
+[2025-05-19T22:51:55.034+0000] {data_validation.py:91} INFO - Corrected Total_Fare values
+[2025-05-19T22:51:55.041+0000] {base.py:83} INFO - Using connection ID 'mysql_conn' for task execution.
+[2025-05-19T22:52:02.126+0000] {data_validation.py:156} INFO - Data validation completed successfully for 57000 rows
+[2025-05-19T22:52:02.242+0000] {python.py:201} INFO - Done. Returned value was: True
+[2025-05-19T22:52:02.284+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=flight_price_analysis, task_id=validate_data, execution_date=20250519T224640, start_date=20250519T225153, end_date=20250519T225202
+[2025-05-19T22:52:02.356+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-05-19T22:52:02.383+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

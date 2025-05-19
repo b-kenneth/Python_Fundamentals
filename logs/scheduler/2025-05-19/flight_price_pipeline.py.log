@@ -1482,3 +1482,1190 @@ ImportError: cannot import name 'configure_logging' from 'tasks.utils.logging_co
 [2025-05-19T21:43:46.385+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:43:46.385+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
 [2025-05-19T21:43:46.386+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:43:46,385 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
 [2025-05-19T21:43:46.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.384 seconds
+[2025-05-19T21:44:16.530+0000] {processor.py:161} INFO - Started process (PID=5330) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:44:16.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:44:16.533+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:44:16.533+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:44:16.954+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:44:16.990+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:44:16.989+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:44:16.991+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:44:16,989 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:44:17.019+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:44:17.019+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:44:17.020+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:44:17,019 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:44:17.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.522 seconds
+[2025-05-19T21:44:47.417+0000] {processor.py:161} INFO - Started process (PID=5389) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:44:47.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:44:47.420+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:44:47.420+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:44:47.713+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:44:47.729+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:44:47.729+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:44:47.730+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:44:47,729 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:44:47.740+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:44:47.740+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:44:47.741+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:44:47,740 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:44:47.760+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.346 seconds
+[2025-05-19T21:45:17.915+0000] {processor.py:161} INFO - Started process (PID=5448) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:45:17.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:45:17.918+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:45:17.918+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:45:18.220+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:45:18.236+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:45:18.236+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:45:18.237+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:45:18,236 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:45:18.248+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:45:18.248+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:45:18.249+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:45:18,248 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:45:18.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.363 seconds
+[2025-05-19T21:45:48.556+0000] {processor.py:161} INFO - Started process (PID=5506) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:45:48.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:45:48.562+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:45:48.561+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:45:48.912+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:45:48.931+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:45:48.931+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:45:48.932+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:45:48,931 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:45:48.952+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:45:48.952+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:45:48.953+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:45:48,952 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:45:48.976+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.424 seconds
+[2025-05-19T21:46:19.175+0000] {processor.py:161} INFO - Started process (PID=5568) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:46:19.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:46:19.177+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:46:19.177+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:46:19.475+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:46:19.492+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:46:19.492+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:46:19.493+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:46:19,492 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:46:19.505+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:46:19.504+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:46:19.505+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:46:19,504 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:46:19.525+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.353 seconds
+[2025-05-19T21:46:49.966+0000] {processor.py:161} INFO - Started process (PID=5630) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:46:49.967+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:46:49.968+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:46:49.968+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:46:50.260+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:46:50.278+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:46:50.277+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:46:50.278+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:46:50,277 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:46:50.289+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:46:50.289+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:46:50.290+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:46:50,289 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:46:50.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.346 seconds
+[2025-05-19T21:47:20.448+0000] {processor.py:161} INFO - Started process (PID=5691) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:47:20.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:47:20.450+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:47:20.450+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:47:20.716+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:47:20.732+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:47:20.731+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:47:20.732+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:47:20,731 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:47:20.743+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:47:20.743+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:47:20.744+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:47:20,743 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:47:20.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.322 seconds
+[2025-05-19T21:47:51.043+0000] {processor.py:161} INFO - Started process (PID=5750) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:47:51.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:47:51.045+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:47:51.045+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:47:51.408+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:47:51.429+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:47:51.429+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:47:51.430+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:47:51,429 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:47:51.443+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:47:51.443+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:47:51.444+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:47:51,443 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:47:51.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.428 seconds
+[2025-05-19T21:48:22.276+0000] {processor.py:161} INFO - Started process (PID=5809) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:48:22.277+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:48:22.279+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:48:22.279+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:48:22.585+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:48:22.603+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:48:22.603+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:48:22.604+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:48:22,603 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:48:22.615+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:48:22.615+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:48:22.616+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:48:22,615 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:48:22.636+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.363 seconds
+[2025-05-19T21:48:52.725+0000] {processor.py:161} INFO - Started process (PID=5868) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:48:52.725+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:48:52.727+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:48:52.727+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:48:53.011+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:48:53.027+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:48:53.027+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:48:53.028+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:48:53,027 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:48:53.040+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:48:53.040+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:48:53.041+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:48:53,040 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:48:53.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.337 seconds
+[2025-05-19T21:49:23.170+0000] {processor.py:161} INFO - Started process (PID=5930) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:49:23.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:49:23.175+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:49:23.175+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:49:23.481+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:49:23.497+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:49:23.497+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:49:23.498+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:49:23,497 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:49:23.510+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:49:23.510+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:49:23.511+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:49:23,510 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:49:23.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.377 seconds
+[2025-05-19T21:49:53.587+0000] {processor.py:161} INFO - Started process (PID=5997) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:49:53.588+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:49:53.589+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:49:53.589+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:49:53.895+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:49:53.913+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:49:53.912+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:49:53.914+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:49:53,912 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:49:54.058+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:49:54.058+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:49:54.059+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:49:54,058 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:49:54.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.500 seconds
+[2025-05-19T21:50:24.316+0000] {processor.py:161} INFO - Started process (PID=6060) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:50:24.317+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:50:24.319+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:50:24.319+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:50:24.683+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:50:24.698+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:50:24.697+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:50:24.699+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:50:24,697 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:50:24.849+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:50:24.849+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:50:24.850+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:50:24,849 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:50:24.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.568 seconds
+[2025-05-19T21:50:55.025+0000] {processor.py:161} INFO - Started process (PID=6118) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:50:55.026+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:50:55.027+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:50:55.027+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:50:55.308+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:50:55.323+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:50:55.323+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:50:55.324+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:50:55,323 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:50:55.336+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:50:55.335+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:50:55.336+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:50:55,335 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:50:55.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.449 seconds
+[2025-05-19T21:51:25.547+0000] {processor.py:161} INFO - Started process (PID=6178) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:51:25.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:51:25.550+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:51:25.550+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:51:25.841+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:51:25.857+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:51:25.857+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:51:25.858+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:51:25,857 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:51:25.872+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:51:25.872+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:51:25.873+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:51:25,872 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:51:26.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.468 seconds
+[2025-05-19T21:51:56.161+0000] {processor.py:161} INFO - Started process (PID=6241) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:51:56.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:51:56.164+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:51:56.164+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:51:56.466+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:51:56.483+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:51:56.483+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:51:56.484+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:51:56,483 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:51:56.497+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:51:56.497+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:51:56.498+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:51:56,497 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:51:56.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.539 seconds
+[2025-05-19T21:52:26.803+0000] {processor.py:161} INFO - Started process (PID=6300) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:52:26.804+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:52:26.806+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:52:26.806+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:52:27.130+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:52:27.150+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:52:27.149+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:52:27.151+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:52:27,149 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:52:27.182+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:52:27.182+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:52:27.183+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:52:27,182 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:52:27.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.423 seconds
+[2025-05-19T21:52:57.402+0000] {processor.py:161} INFO - Started process (PID=6359) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:52:57.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:52:57.405+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:52:57.405+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:52:57.680+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:52:57.696+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:52:57.695+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:52:57.697+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:52:57,695 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:52:57.708+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:52:57.707+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:52:57.708+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:52:57,707 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:52:57.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.444 seconds
+[2025-05-19T21:53:28.653+0000] {processor.py:161} INFO - Started process (PID=6417) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:53:28.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:53:28.655+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:53:28.655+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:53:28.921+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:53:28.943+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:53:28.943+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:53:28.944+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:53:28,943 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:53:28.955+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:53:28.954+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:53:28.956+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:53:28,954 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:53:29.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.448 seconds
+[2025-05-19T21:53:59.204+0000] {processor.py:161} INFO - Started process (PID=6476) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:53:59.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:53:59.207+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:53:59.207+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:53:59.469+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:53:59.485+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:53:59.484+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:53:59.486+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:53:59,484 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:53:59.496+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:53:59.496+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:53:59.497+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:53:59,496 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:53:59.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.332 seconds
+[2025-05-19T21:54:30.482+0000] {processor.py:161} INFO - Started process (PID=6535) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:54:30.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:54:30.485+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:54:30.485+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:54:30.954+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:54:30.970+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:54:30.970+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:54:30.971+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:54:30,970 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:54:30.983+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:54:30.982+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:54:30.983+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:54:30,982 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:54:31.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.520 seconds
+[2025-05-19T21:55:01.090+0000] {processor.py:161} INFO - Started process (PID=6598) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:55:01.091+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:55:01.092+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:55:01.092+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:55:01.524+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:55:01.538+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:55:01.537+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:55:01.539+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:55:01,537 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:55:01.548+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:55:01.548+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:55:01.549+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:55:01,548 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:55:01.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.484 seconds
+[2025-05-19T21:55:31.660+0000] {processor.py:161} INFO - Started process (PID=6657) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:55:31.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:55:31.663+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:55:31.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:55:32.052+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:55:32.067+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:55:32.067+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:55:32.068+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:55:32,067 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:55:32.079+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:55:32.079+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:55:32.080+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:55:32,079 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:55:32.105+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.447 seconds
+[2025-05-19T21:56:02.219+0000] {processor.py:161} INFO - Started process (PID=6716) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:56:02.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:56:02.222+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:56:02.222+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:56:02.644+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:56:02.658+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:56:02.658+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:56:02.659+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:56:02,658 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:56:02.669+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:56:02.668+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:56:02.669+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:56:02,668 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:56:02.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.476 seconds
+[2025-05-19T21:56:33.620+0000] {processor.py:161} INFO - Started process (PID=6775) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:56:33.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:56:33.622+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:56:33.622+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:56:34.046+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:56:34.061+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:56:34.060+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:56:34.061+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:56:34,060 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:56:34.072+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:56:34.072+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:56:34.072+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:56:34,072 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:56:34.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.477 seconds
+[2025-05-19T21:57:04.175+0000] {processor.py:161} INFO - Started process (PID=6837) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:57:04.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:57:04.177+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:57:04.177+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:57:04.592+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:57:04.615+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:57:04.614+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:57:04.616+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:57:04,614 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:57:04.629+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:57:04.629+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:57:04.630+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:57:04,629 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:57:04.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.492 seconds
+[2025-05-19T21:57:34.906+0000] {processor.py:161} INFO - Started process (PID=6898) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:57:34.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:57:34.909+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:57:34.908+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:57:35.316+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:57:35.331+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:57:35.330+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:57:35.332+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:57:35,330 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:57:35.341+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:57:35.341+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:57:35.342+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:57:35,341 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:57:35.361+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.458 seconds
+[2025-05-19T21:58:05.509+0000] {processor.py:161} INFO - Started process (PID=6960) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:58:05.510+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:58:05.512+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:58:05.512+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:58:05.963+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:58:05.976+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:58:05.976+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:58:05.977+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:58:05,976 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:58:05.987+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:58:05.987+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:58:05.988+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:58:05,987 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:58:06.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.504 seconds
+[2025-05-19T21:58:36.130+0000] {processor.py:161} INFO - Started process (PID=7024) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:58:36.131+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:58:36.133+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:58:36.132+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:58:36.533+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:58:36.550+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:58:36.550+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:58:36.551+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:58:36,550 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:58:36.565+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:58:36.565+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:58:36.566+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:58:36,565 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:58:36.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.465 seconds
+[2025-05-19T21:59:06.718+0000] {processor.py:161} INFO - Started process (PID=7083) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:59:06.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:59:06.721+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:59:06.721+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:59:07.120+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:59:07.135+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:59:07.135+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:59:07.136+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:59:07,135 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:59:07.145+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:59:07.145+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:59:07.146+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:59:07,145 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:59:07.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.449 seconds
+[2025-05-19T21:59:38.143+0000] {processor.py:161} INFO - Started process (PID=7142) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:59:38.144+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T21:59:38.145+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:59:38.145+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:59:38.528+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T21:59:38.542+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:59:38.542+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T21:59:38.543+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:59:38,542 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T21:59:38.552+0000] {logging_mixin.py:188} INFO - [2025-05-19T21:59:38.552+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:59:38.553+0000] {logging_mixin.py:188} WARNING - 2025-05-19 21:59:38,552 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T21:59:38.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.452 seconds
+[2025-05-19T22:00:08.639+0000] {processor.py:161} INFO - Started process (PID=7201) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:00:08.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:00:08.642+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:00:08.641+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:00:09.038+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:00:09.052+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:00:09.052+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:00:09.053+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:00:09,052 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:00:09.062+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:00:09.062+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:00:09.063+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:00:09,062 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:00:09.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.450 seconds
+[2025-05-19T22:00:39.200+0000] {processor.py:161} INFO - Started process (PID=7260) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:00:39.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:00:39.203+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:00:39.202+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:00:39.593+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:00:39.605+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:00:39.605+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:00:39.606+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:00:39,605 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:00:39.615+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:00:39.615+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:00:39.616+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:00:39,615 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:00:39.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.435 seconds
+[2025-05-19T22:01:09.754+0000] {processor.py:161} INFO - Started process (PID=7319) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:01:09.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:01:09.757+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:01:09.757+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:01:10.148+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:01:10.162+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:01:10.161+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:01:10.163+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:01:10,161 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:01:10.173+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:01:10.173+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:01:10.174+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:01:10,173 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:01:10.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.445 seconds
+[2025-05-19T22:01:40.575+0000] {processor.py:161} INFO - Started process (PID=7378) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:01:40.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:01:40.577+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:01:40.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:01:40.966+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:01:40.980+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:01:40.979+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:01:40.980+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:01:40,979 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:01:40.991+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:01:40.990+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:01:40.992+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:01:40,990 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:01:41.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.444 seconds
+[2025-05-19T22:02:11.069+0000] {processor.py:161} INFO - Started process (PID=7438) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:02:11.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:02:11.072+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:02:11.072+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:02:11.460+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:02:11.474+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:02:11.473+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:02:11.475+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:02:11,473 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:02:11.484+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:02:11.484+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:02:11.485+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:02:11,484 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:02:11.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.444 seconds
+[2025-05-19T22:02:41.574+0000] {processor.py:161} INFO - Started process (PID=7497) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:02:41.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:02:41.577+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:02:41.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:02:41.963+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:02:41.976+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:02:41.976+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:02:41.977+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:02:41,976 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:02:41.986+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:02:41.986+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:02:41.987+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:02:41,986 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:02:42.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.439 seconds
+[2025-05-19T22:03:12.334+0000] {processor.py:161} INFO - Started process (PID=7555) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:03:12.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:03:12.336+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:03:12.336+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:03:12.721+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:03:12.734+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:03:12.733+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:03:12.735+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:03:12,733 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:03:12.744+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:03:12.744+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:03:12.745+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:03:12,744 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:03:12.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.435 seconds
+[2025-05-19T22:03:42.807+0000] {processor.py:161} INFO - Started process (PID=7615) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:03:42.808+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:03:42.809+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:03:42.809+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:03:43.196+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:03:43.216+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:03:43.216+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:03:43.217+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:03:43,216 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:03:43.227+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:03:43.227+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:03:43.228+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:03:43,227 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:03:43.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.448 seconds
+[2025-05-19T22:04:13.453+0000] {processor.py:161} INFO - Started process (PID=7673) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:04:13.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:04:13.456+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:04:13.455+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:04:13.835+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:04:13.848+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:04:13.847+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:04:13.849+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:04:13,847 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:04:13.858+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:04:13.858+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:04:13.859+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:04:13,858 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:04:13.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.426 seconds
+[2025-05-19T22:04:44.893+0000] {processor.py:161} INFO - Started process (PID=7733) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:04:44.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:04:44.897+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:04:44.896+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:04:45.439+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:04:45.453+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:04:45.453+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:04:45.454+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:04:45,453 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:04:45.465+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:04:45.464+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:04:45.465+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:04:45,464 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:04:45.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.598 seconds
+[2025-05-19T22:05:15.566+0000] {processor.py:161} INFO - Started process (PID=7792) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:05:15.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:05:15.569+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:05:15.568+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:05:15.968+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:05:15.982+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:05:15.982+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:05:15.983+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:05:15,982 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:05:15.992+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:05:15.992+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:05:15.993+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:05:15,992 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:05:16.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.453 seconds
+[2025-05-19T22:05:46.145+0000] {processor.py:161} INFO - Started process (PID=7851) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:05:46.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:05:46.148+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:05:46.147+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:05:46.532+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:05:46.545+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:05:46.545+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:05:46.546+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:05:46,545 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:05:46.556+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:05:46.555+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:05:46.556+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:05:46,555 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:05:46.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.431 seconds
+[2025-05-19T22:06:16.623+0000] {processor.py:161} INFO - Started process (PID=7910) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:06:16.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:06:16.626+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:06:16.625+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:06:17.036+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:06:17.049+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:06:17.049+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:06:17.050+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:06:17,049 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:06:17.060+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:06:17.059+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:06:17.061+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:06:17,059 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:06:17.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.458 seconds
+[2025-05-19T22:06:47.212+0000] {processor.py:161} INFO - Started process (PID=7969) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:06:47.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:06:47.214+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:06:47.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:06:47.587+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:06:47.603+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:06:47.602+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:06:47.603+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:06:47,602 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:06:47.613+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:06:47.613+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:06:47.614+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:06:47,613 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:06:47.636+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.427 seconds
+[2025-05-19T22:07:17.746+0000] {processor.py:161} INFO - Started process (PID=8028) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:07:17.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:07:17.749+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:07:17.748+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:07:18.204+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:07:18.229+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:07:18.229+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:07:18.230+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:07:18,229 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:07:18.244+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:07:18.243+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:07:18.245+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:07:18,243 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:07:18.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.519 seconds
+[2025-05-19T22:07:48.358+0000] {processor.py:161} INFO - Started process (PID=8088) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:07:48.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:07:48.360+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:07:48.360+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:07:48.744+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:07:48.757+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:07:48.757+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:07:48.758+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:07:48,757 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:07:48.768+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:07:48.768+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:07:48.769+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:07:48,768 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:07:48.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.446 seconds
+[2025-05-19T22:08:18.944+0000] {processor.py:161} INFO - Started process (PID=8147) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:08:18.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:08:18.946+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:08:18.946+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:08:19.330+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:08:19.343+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:08:19.343+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:08:19.344+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:08:19,343 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:08:19.354+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:08:19.354+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:08:19.355+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:08:19,354 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:08:19.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.435 seconds
+[2025-05-19T22:08:49.426+0000] {processor.py:161} INFO - Started process (PID=8206) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:08:49.427+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:08:49.429+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:08:49.429+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:08:49.801+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:08:49.815+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:08:49.814+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:08:49.816+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:08:49,814 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:08:49.826+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:08:49.825+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:08:49.826+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:08:49,825 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:08:49.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.435 seconds
+[2025-05-19T22:09:19.944+0000] {processor.py:161} INFO - Started process (PID=8265) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:09:19.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:09:19.947+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:09:19.946+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:09:20.335+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:09:20.349+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:09:20.348+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:09:20.350+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:09:20,348 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:09:20.359+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:09:20.359+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:09:20.360+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:09:20,359 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:09:20.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.444 seconds
+[2025-05-19T22:09:51.399+0000] {processor.py:161} INFO - Started process (PID=8324) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:09:51.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:09:51.402+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:09:51.402+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:09:51.774+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:09:51.787+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:09:51.787+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:09:51.788+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:09:51,787 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:09:51.798+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:09:51.798+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:09:51.799+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:09:51,798 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:09:51.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.425 seconds
+[2025-05-19T22:10:22.730+0000] {processor.py:161} INFO - Started process (PID=8383) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:10:22.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:10:22.732+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:10:22.732+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:10:23.136+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:10:23.149+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:10:23.148+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:10:23.150+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:10:23,148 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:10:23.159+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:10:23.159+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:10:23.160+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:10:23,159 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:10:23.179+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.451 seconds
+[2025-05-19T22:10:53.262+0000] {processor.py:161} INFO - Started process (PID=8443) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:10:53.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:10:53.265+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:10:53.264+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:10:53.645+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:10:53.658+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:10:53.658+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:10:53.659+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:10:53,658 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:10:53.669+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:10:53.669+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:10:53.670+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:10:53,669 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:10:53.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.432 seconds
+[2025-05-19T22:11:23.928+0000] {processor.py:161} INFO - Started process (PID=8501) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:11:23.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:11:23.931+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:11:23.930+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:11:24.329+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:11:24.342+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:11:24.342+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:11:24.343+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:11:24,342 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:11:24.353+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:11:24.353+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:11:24.354+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:11:24,353 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:11:24.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.465 seconds
+[2025-05-19T22:11:54.562+0000] {processor.py:161} INFO - Started process (PID=8560) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:11:54.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:11:54.564+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:11:54.564+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:11:54.960+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:11:54.976+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:11:54.976+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:11:54.977+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:11:54,976 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:11:54.987+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:11:54.986+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:11:54.987+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:11:54,986 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:11:55.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.455 seconds
+[2025-05-19T22:12:25.954+0000] {processor.py:161} INFO - Started process (PID=8625) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:12:25.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:12:25.957+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:12:25.956+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:12:26.384+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:12:26.399+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:12:26.399+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:12:26.400+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:12:26,399 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:12:26.410+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:12:26.410+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:12:26.411+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:12:26,410 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:12:26.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.478 seconds
+[2025-05-19T22:12:56.936+0000] {processor.py:161} INFO - Started process (PID=8684) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:12:56.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:12:56.939+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:12:56.939+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:12:57.348+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:12:57.361+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:12:57.361+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:12:57.362+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:12:57,361 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:12:57.371+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:12:57.371+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:12:57.372+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:12:57,371 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:12:57.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.462 seconds
+[2025-05-19T22:13:28.007+0000] {processor.py:161} INFO - Started process (PID=8743) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:13:28.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:13:28.010+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:13:28.010+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:13:28.464+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:13:28.477+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:13:28.476+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:13:28.478+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:13:28,476 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:13:28.487+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:13:28.487+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:13:28.488+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:13:28,487 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:13:28.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.509 seconds
+[2025-05-19T22:13:59.255+0000] {processor.py:161} INFO - Started process (PID=8802) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:13:59.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:13:59.257+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:13:59.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:13:59.671+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:13:59.684+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:13:59.684+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:13:59.685+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:13:59,684 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:13:59.695+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:13:59.695+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:13:59.696+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:13:59,695 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:13:59.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.467 seconds
+[2025-05-19T22:14:30.438+0000] {processor.py:161} INFO - Started process (PID=8861) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:14:30.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:14:30.440+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:14:30.440+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:14:30.828+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:14:30.841+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:14:30.840+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:14:30.842+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:14:30,840 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:14:30.851+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:14:30.850+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:14:30.851+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:14:30,850 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:14:30.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.440 seconds
+[2025-05-19T22:15:01.324+0000] {processor.py:161} INFO - Started process (PID=8920) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:15:01.327+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:15:01.332+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:15:01.332+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:15:01.815+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:15:01.831+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:15:01.831+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:15:01.832+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:15:01,831 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:15:01.843+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:15:01.843+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:15:01.844+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:15:01,843 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:15:01.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.548 seconds
+[2025-05-19T22:15:32.764+0000] {processor.py:161} INFO - Started process (PID=8979) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:15:32.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:15:32.767+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:15:32.766+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:15:33.190+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:15:33.205+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:15:33.204+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:15:33.206+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:15:33,204 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:15:33.217+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:15:33.217+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:15:33.218+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:15:33,217 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:15:33.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.479 seconds
+[2025-05-19T22:16:03.994+0000] {processor.py:161} INFO - Started process (PID=9038) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:16:03.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:16:03.997+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:16:03.997+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:16:04.511+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:16:04.530+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:16:04.530+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:16:04.531+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:16:04,530 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:16:04.544+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:16:04.544+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:16:04.545+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:16:04,544 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:16:04.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.582 seconds
+[2025-05-19T22:16:34.848+0000] {processor.py:161} INFO - Started process (PID=9098) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:16:34.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:16:34.851+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:16:34.851+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:16:35.262+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:16:35.276+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:16:35.276+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:16:35.277+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:16:35,276 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:16:35.288+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:16:35.288+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:16:35.289+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:16:35,288 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:16:35.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.463 seconds
+[2025-05-19T22:17:05.998+0000] {processor.py:161} INFO - Started process (PID=9157) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:17:06.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:17:06.002+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:17:06.002+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:17:06.446+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:17:06.461+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:17:06.461+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:17:06.462+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:17:06,461 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:17:06.474+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:17:06.474+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:17:06.475+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:17:06,474 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:17:06.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.501 seconds
+[2025-05-19T22:17:36.899+0000] {processor.py:161} INFO - Started process (PID=9216) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:17:36.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:17:36.902+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:17:36.902+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:17:37.329+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:17:37.344+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:17:37.343+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:17:37.345+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:17:37,343 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:17:37.355+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:17:37.354+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:17:37.355+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:17:37,354 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:17:37.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.486 seconds
+[2025-05-19T22:18:07.744+0000] {processor.py:161} INFO - Started process (PID=9275) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:18:07.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:18:07.748+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:18:07.748+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:18:08.618+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:18:08.642+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:18:08.642+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:18:08.643+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:18:08,642 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:18:08.659+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:18:08.659+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:18:08.660+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:18:08,659 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:18:08.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.950 seconds
+[2025-05-19T22:18:39.260+0000] {processor.py:161} INFO - Started process (PID=9334) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:18:39.262+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:18:39.264+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:18:39.264+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:18:39.883+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:18:39.898+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:18:39.897+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:18:39.899+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:18:39,897 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:18:39.912+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:18:39.912+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:18:39.913+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:18:39,912 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:18:39.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.680 seconds
+[2025-05-19T22:19:10.268+0000] {processor.py:161} INFO - Started process (PID=9395) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:19:10.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:19:10.271+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:19:10.271+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:19:10.722+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:19:10.740+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:19:10.740+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:19:10.741+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:19:10,740 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:19:10.751+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:19:10.751+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:19:10.752+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:19:10,751 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:19:10.777+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.512 seconds
+[2025-05-19T22:19:41.024+0000] {processor.py:161} INFO - Started process (PID=9454) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:19:41.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:19:41.026+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:19:41.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:19:41.439+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:19:41.453+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:19:41.453+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:19:41.454+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:19:41,453 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:19:41.463+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:19:41.463+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:19:41.464+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:19:41,463 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:19:41.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.466 seconds
+[2025-05-19T22:20:11.786+0000] {processor.py:161} INFO - Started process (PID=9511) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:20:11.787+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:20:11.788+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:20:11.788+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:20:12.206+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:20:12.218+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:20:12.218+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:20:12.219+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:20:12,218 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:20:12.229+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:20:12.229+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:20:12.230+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:20:12,229 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:20:12.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.470 seconds
+[2025-05-19T22:20:42.626+0000] {processor.py:161} INFO - Started process (PID=9570) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:20:42.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:20:42.628+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:20:42.628+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:20:43.029+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:20:43.045+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:20:43.045+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:20:43.046+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:20:43,045 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:20:43.058+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:20:43.058+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:20:43.059+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:20:43,058 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:20:43.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.460 seconds
+[2025-05-19T22:21:13.381+0000] {processor.py:161} INFO - Started process (PID=9629) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:21:13.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:21:13.384+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:21:13.383+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:21:13.667+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:21:13.684+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:21:13.683+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:21:13.685+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:21:13,683 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:21:13.695+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:21:13.695+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:21:13.696+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:21:13,695 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:21:13.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.341 seconds
+[2025-05-19T22:21:43.865+0000] {processor.py:161} INFO - Started process (PID=9688) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:21:43.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:21:43.867+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:21:43.867+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:21:44.157+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:21:44.173+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:21:44.173+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:21:44.174+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:21:44,173 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:21:44.185+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:21:44.184+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:21:44.185+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:21:44,184 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:21:44.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.343 seconds
+[2025-05-19T22:22:14.447+0000] {processor.py:161} INFO - Started process (PID=9748) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:22:14.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:22:14.450+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:22:14.449+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:22:14.726+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:22:14.742+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:22:14.742+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:22:14.743+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:22:14,742 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:22:14.754+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:22:14.754+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:22:14.755+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:22:14,754 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:22:14.779+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.334 seconds
+[2025-05-19T22:22:45.101+0000] {processor.py:161} INFO - Started process (PID=9807) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:22:45.102+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:22:45.104+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:22:45.103+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:22:45.390+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:22:45.406+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:22:45.406+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:22:45.407+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:22:45,406 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:22:45.419+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:22:45.418+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:22:45.419+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:22:45,418 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:22:45.445+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.346 seconds
+[2025-05-19T22:23:15.887+0000] {processor.py:161} INFO - Started process (PID=9867) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:23:15.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:23:15.890+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:23:15.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:23:16.305+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:23:16.321+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:23:16.320+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:23:16.321+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:23:16,320 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:23:16.332+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:23:16.332+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:23:16.332+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:23:16,332 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:23:16.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.473 seconds
+[2025-05-19T22:23:46.674+0000] {processor.py:161} INFO - Started process (PID=9926) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:23:46.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:23:46.677+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:23:46.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:23:46.958+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:23:46.972+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:23:46.972+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:23:46.973+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:23:46,972 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:23:46.984+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:23:46.984+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:23:46.985+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:23:46,984 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:23:47.009+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.337 seconds
+[2025-05-19T22:24:17.413+0000] {processor.py:161} INFO - Started process (PID=9985) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:24:17.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:24:17.416+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:24:17.415+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:24:17.784+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:24:17.802+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:24:17.801+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:24:17.803+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:24:17,801 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:24:17.816+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:24:17.816+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:24:17.817+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:24:17,816 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:24:17.842+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.432 seconds
+[2025-05-19T22:24:48.040+0000] {processor.py:161} INFO - Started process (PID=10044) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:24:48.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:24:48.043+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:24:48.043+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:24:48.355+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:24:48.372+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:24:48.371+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:24:48.373+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:24:48,371 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:24:48.384+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:24:48.384+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:24:48.385+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:24:48,384 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:24:48.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.373 seconds
+[2025-05-19T22:25:13.436+0000] {processor.py:161} INFO - Started process (PID=10102) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:25:13.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:25:13.439+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:25:13.439+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:25:13.737+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:25:13.819+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:25:13.819+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:25:13.820+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:25:13,819 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:25:13.830+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:25:13.830+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:25:13.831+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:25:13,830 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:25:13.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.426 seconds
+[2025-05-19T22:25:44.790+0000] {processor.py:161} INFO - Started process (PID=10161) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:25:44.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:25:44.793+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:25:44.793+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:25:45.079+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:25:45.095+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:25:45.095+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:25:45.096+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:25:45,095 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:25:45.108+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:25:45.108+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:25:45.109+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:25:45,108 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:25:45.136+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.348 seconds
+[2025-05-19T22:26:15.854+0000] {processor.py:161} INFO - Started process (PID=10220) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:26:15.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:26:15.858+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:26:15.858+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:26:16.271+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:26:16.289+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:26:16.288+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:26:16.290+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:26:16,288 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:26:16.301+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:26:16.301+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:26:16.302+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:26:16,301 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:26:16.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.482 seconds
+[2025-05-19T22:26:46.821+0000] {processor.py:161} INFO - Started process (PID=10279) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:26:46.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:26:46.824+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:26:46.823+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:26:47.135+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:26:47.151+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:26:47.151+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:26:47.152+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:26:47,151 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:26:47.163+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:26:47.163+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:26:47.164+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:26:47,163 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:26:47.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.370 seconds
+[2025-05-19T22:26:53.237+0000] {processor.py:161} INFO - Started process (PID=10284) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:26:53.238+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:26:53.240+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:26:53.240+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:26:53.782+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:26:53.873+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:26:53.873+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:26:53.874+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:26:53,873 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:26:53.885+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:26:53.884+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:26:53.886+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:26:53,884 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:26:53.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.686 seconds
+[2025-05-19T22:27:24.125+0000] {processor.py:161} INFO - Started process (PID=10343) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:27:24.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:27:24.128+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:27:24.128+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:27:24.446+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:27:24.463+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:27:24.462+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:27:24.464+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:27:24,462 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:27:24.476+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:27:24.476+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:27:24.477+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:27:24,476 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:27:24.501+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.378 seconds
+[2025-05-19T22:27:54.614+0000] {processor.py:161} INFO - Started process (PID=10405) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:27:54.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:27:54.617+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:27:54.616+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:27:54.958+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:27:54.975+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:27:54.975+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:27:54.976+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:27:54,975 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:27:54.988+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:27:54.988+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:27:54.989+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:27:54,988 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:27:55.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.402 seconds
+[2025-05-19T22:28:25.123+0000] {processor.py:161} INFO - Started process (PID=10462) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:28:25.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:28:25.126+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:28:25.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:28:25.459+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:28:25.481+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:28:25.481+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:28:25.483+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:28:25,481 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:28:25.496+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:28:25.495+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:28:25.496+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:28:25,495 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:28:25.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.399 seconds
+[2025-05-19T22:28:56.212+0000] {processor.py:161} INFO - Started process (PID=10523) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:28:56.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:28:56.216+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:28:56.215+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:28:56.605+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:28:56.622+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:28:56.621+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:28:56.622+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:28:56,621 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:28:56.634+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:28:56.634+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:28:56.635+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:28:56,634 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:28:56.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.450 seconds
+[2025-05-19T22:29:27.085+0000] {processor.py:161} INFO - Started process (PID=10592) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:29:27.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:29:27.088+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:29:27.087+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:29:27.393+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:29:27.410+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:29:27.410+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:29:27.411+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:29:27,410 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:29:27.422+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:29:27.421+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:29:27.423+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:29:27,421 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:29:27.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.365 seconds
+[2025-05-19T22:29:57.693+0000] {processor.py:161} INFO - Started process (PID=10651) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:29:57.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:29:57.696+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:29:57.695+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:29:58.033+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:29:58.053+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:29:58.053+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:29:58.054+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:29:58,053 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:29:58.070+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:29:58.070+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:29:58.071+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:29:58,070 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:29:58.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.409 seconds
+[2025-05-19T22:30:28.724+0000] {processor.py:161} INFO - Started process (PID=10712) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:30:28.725+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:30:28.728+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:30:28.727+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:30:29.226+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:30:29.247+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:30:29.247+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:30:29.248+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:30:29,247 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:30:29.268+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:30:29.268+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:30:29.269+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:30:29,268 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:30:29.298+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.579 seconds
+[2025-05-19T22:31:00.079+0000] {processor.py:161} INFO - Started process (PID=10773) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:31:00.080+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:31:00.082+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:31:00.082+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:31:00.471+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:31:00.494+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:31:00.493+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:31:00.495+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:31:00,493 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:31:00.509+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:31:00.509+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:31:00.510+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:31:00,509 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:31:00.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.459 seconds
+[2025-05-19T22:31:30.885+0000] {processor.py:161} INFO - Started process (PID=10834) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:31:30.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:31:30.888+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:31:30.887+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:31:31.193+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:31:31.212+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:31:31.212+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:31:31.213+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:31:31,212 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:31:31.225+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:31:31.225+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:31:31.226+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:31:31,225 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:31:31.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.370 seconds
+[2025-05-19T22:32:01.332+0000] {processor.py:161} INFO - Started process (PID=10895) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:32:01.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:32:01.336+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:32:01.336+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:32:01.731+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:32:01.759+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:32:01.759+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:32:01.760+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:32:01,759 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:32:01.777+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:32:01.777+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:32:01.778+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:32:01,777 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:32:01.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.483 seconds
+[2025-05-19T22:32:32.665+0000] {processor.py:161} INFO - Started process (PID=10956) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:32:32.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:32:32.669+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:32:32.669+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:32:33.137+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:32:33.160+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:32:33.159+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:32:33.161+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:32:33,159 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:32:33.177+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:32:33.176+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:32:33.177+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:32:33,176 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:32:33.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.547 seconds
+[2025-05-19T22:33:04.142+0000] {processor.py:161} INFO - Started process (PID=11017) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:33:04.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:33:04.145+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:33:04.145+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:33:04.450+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:33:04.467+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:33:04.466+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:33:04.467+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:33:04,466 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:33:04.480+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:33:04.480+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:33:04.481+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:33:04,480 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:33:04.505+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.366 seconds
+[2025-05-19T22:33:35.451+0000] {processor.py:161} INFO - Started process (PID=11078) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:33:35.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:33:35.454+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:33:35.454+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:33:35.752+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:33:35.771+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:33:35.770+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:33:35.771+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:33:35,770 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:33:35.784+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:33:35.783+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:33:35.784+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:33:35,783 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:33:35.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.361 seconds
+[2025-05-19T22:34:06.582+0000] {processor.py:161} INFO - Started process (PID=11139) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:34:06.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:34:06.586+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:34:06.585+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:34:06.940+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:34:06.960+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:34:06.960+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:34:06.961+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:34:06,960 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:34:06.978+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:34:06.978+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:34:06.979+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:34:06,978 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:34:07.008+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.435 seconds
+[2025-05-19T22:34:37.071+0000] {processor.py:161} INFO - Started process (PID=11200) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:34:37.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:34:37.074+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:34:37.074+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:34:37.391+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:34:37.414+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:34:37.413+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:34:37.414+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:34:37,413 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:34:37.425+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:34:37.425+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:34:37.426+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:34:37,425 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:34:37.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.383 seconds
+[2025-05-19T22:35:07.768+0000] {processor.py:161} INFO - Started process (PID=11262) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:35:07.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:35:07.772+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:35:07.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:35:08.126+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:35:08.149+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:35:08.148+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:35:08.150+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:35:08,148 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:35:08.165+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:35:08.165+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:35:08.165+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:35:08,165 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:35:08.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.429 seconds
+[2025-05-19T22:35:38.586+0000] {processor.py:161} INFO - Started process (PID=11321) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:35:38.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:35:38.589+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:35:38.589+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:35:38.900+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:35:38.917+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:35:38.917+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:35:38.918+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:35:38,917 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:35:38.930+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:35:38.929+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:35:38.930+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:35:38,929 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:35:38.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.373 seconds
+[2025-05-19T22:36:09.612+0000] {processor.py:161} INFO - Started process (PID=11382) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:36:09.613+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:36:09.615+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:36:09.615+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:36:09.899+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:36:09.917+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:36:09.917+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:36:09.918+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:36:09,917 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:36:09.930+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:36:09.930+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:36:09.931+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:36:09,930 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:36:09.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.346 seconds
+[2025-05-19T22:36:40.864+0000] {processor.py:161} INFO - Started process (PID=11443) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:36:40.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:36:40.867+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:36:40.867+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:36:41.214+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:36:41.233+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:36:41.233+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:36:41.234+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:36:41,233 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:36:41.248+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:36:41.248+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:36:41.248+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:36:41,248 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:36:41.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.412 seconds
+[2025-05-19T22:37:12.211+0000] {processor.py:161} INFO - Started process (PID=11504) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:37:12.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:37:12.214+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:37:12.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:37:12.579+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:37:12.599+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:37:12.599+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:37:12.600+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:37:12,599 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:37:12.612+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:37:12.612+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:37:12.613+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:37:12,612 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:37:12.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.428 seconds
+[2025-05-19T22:37:43.296+0000] {processor.py:161} INFO - Started process (PID=11565) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:37:43.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:37:43.300+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:37:43.299+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:37:43.614+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:37:43.632+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:37:43.631+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:37:43.633+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:37:43,631 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:37:43.646+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:37:43.646+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:37:43.647+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:37:43,646 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:37:43.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.383 seconds
+[2025-05-19T22:41:05.190+0000] {processor.py:161} INFO - Started process (PID=40) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:41:05.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:41:05.212+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:41:05.211+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:41:07.930+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:41:08.707+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:41:08.706+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:flight_price_analysis
+[2025-05-19T22:41:08.708+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:41:08,706 - airflow.auth.managers.fab.security_manager.override - INFO - Created Permission View: can delete on DAG:flight_price_analysis
+[2025-05-19T22:41:08.726+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:41:08.726+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:flight_price_analysis
+[2025-05-19T22:41:08.727+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:41:08,726 - airflow.auth.managers.fab.security_manager.override - INFO - Created Permission View: can read on DAG:flight_price_analysis
+[2025-05-19T22:41:08.743+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:41:08.742+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:flight_price_analysis
+[2025-05-19T22:41:08.744+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:41:08,742 - airflow.auth.managers.fab.security_manager.override - INFO - Created Permission View: can edit on DAG:flight_price_analysis
+[2025-05-19T22:41:08.745+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:41:08.745+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:41:08.746+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:41:08,745 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:41:08.770+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:41:08.769+0000] {dag.py:3058} INFO - Creating ORM DAG for flight_price_analysis
+[2025-05-19T22:41:08.772+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:41:08,769 - airflow.models.dag - INFO - Creating ORM DAG for flight_price_analysis
+[2025-05-19T22:41:08.773+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:41:08.773+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:41:08.774+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:41:08,773 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:41:08.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.636 seconds
+[2025-05-19T22:41:39.190+0000] {processor.py:161} INFO - Started process (PID=105) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:41:39.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:41:39.193+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:41:39.192+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:41:39.675+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:41:39.691+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:41:39.691+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:41:39.692+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:41:39,691 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:41:39.703+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:41:39.702+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:41:39.704+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:41:39,702 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:41:39.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.542 seconds
+[2025-05-19T22:42:10.024+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:42:10.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:42:10.027+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:42:10.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:42:10.529+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:42:10.546+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:42:10.546+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:42:10.547+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:42:10,546 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:42:10.558+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:42:10.558+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:42:10.559+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:42:10,558 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:42:10.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.562 seconds
+[2025-05-19T22:42:40.973+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:42:40.974+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:42:40.976+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:42:40.976+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:42:41.417+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:42:41.432+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:42:41.432+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:42:41.433+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:42:41,432 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:42:41.444+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:42:41.444+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:42:41.445+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:42:41,444 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:42:41.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.500 seconds
+[2025-05-19T22:43:12.283+0000] {processor.py:161} INFO - Started process (PID=287) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:43:12.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:43:12.287+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:43:12.286+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:43:12.807+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:43:12.821+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:43:12.821+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:43:12.822+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:43:12,821 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:43:12.833+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:43:12.833+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:43:12.835+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:43:12,833 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:43:12.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.579 seconds
+[2025-05-19T22:43:43.507+0000] {processor.py:161} INFO - Started process (PID=348) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:43:43.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:43:43.510+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:43:43.510+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:43:43.956+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:43:43.973+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:43:43.972+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:43:43.973+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:43:43,972 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:43:43.985+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:43:43.985+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:43:43.986+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:43:43,985 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:43:44.009+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.504 seconds
+[2025-05-19T22:44:14.280+0000] {processor.py:161} INFO - Started process (PID=409) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:44:14.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:44:14.290+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:44:14.289+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:44:15.080+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:44:15.096+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:44:15.095+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:44:15.097+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:44:15,095 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:44:15.109+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:44:15.108+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:44:15.110+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:44:15,108 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:44:15.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.861 seconds
+[2025-05-19T22:44:45.406+0000] {processor.py:161} INFO - Started process (PID=470) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:44:45.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:44:45.409+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:44:45.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:44:45.953+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:44:45.967+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:44:45.967+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:44:45.968+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:44:45,967 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:44:45.978+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:44:45.978+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:44:45.979+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:44:45,978 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:44:46.003+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.599 seconds
+[2025-05-19T22:45:16.085+0000] {processor.py:161} INFO - Started process (PID=532) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:45:16.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:45:16.088+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:45:16.088+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:45:16.536+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:45:16.560+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:45:16.560+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:45:16.561+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:45:16,560 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:45:16.573+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:45:16.573+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:45:16.574+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:45:16,573 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:45:16.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.515 seconds
+[2025-05-19T22:45:47.412+0000] {processor.py:161} INFO - Started process (PID=592) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:45:47.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:45:47.417+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:45:47.416+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:45:47.847+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:45:47.862+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:45:47.861+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:45:47.863+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:45:47,861 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:45:47.872+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:45:47.872+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:45:47.873+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:45:47,872 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:45:47.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.491 seconds
+[2025-05-19T22:46:18.658+0000] {processor.py:161} INFO - Started process (PID=653) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:46:18.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:46:18.661+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:46:18.661+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:46:19.077+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:46:19.091+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:46:19.091+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:46:19.092+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:46:19,091 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:46:19.103+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:46:19.103+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:46:19.104+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:46:19,103 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:46:19.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.475 seconds
+[2025-05-19T22:46:50.070+0000] {processor.py:161} INFO - Started process (PID=714) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:46:50.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:46:50.073+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:46:50.073+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:46:50.485+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:46:50.503+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:46:50.502+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:46:50.504+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:46:50,502 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:46:50.518+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:46:50.518+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:46:50.519+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:46:50,518 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:46:50.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.479 seconds
+[2025-05-19T22:47:21.286+0000] {processor.py:161} INFO - Started process (PID=775) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:47:21.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:47:21.289+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:47:21.289+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:47:21.778+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:47:21.797+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:47:21.797+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:47:21.798+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:47:21,797 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:47:21.813+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:47:21.813+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:47:21.814+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:47:21,813 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:47:21.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.556 seconds
+[2025-05-19T22:47:52.539+0000] {processor.py:161} INFO - Started process (PID=836) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:47:52.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:47:52.544+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:47:52.544+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:47:52.987+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:47:53.003+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:47:53.002+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:47:53.003+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:47:53,002 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:47:53.014+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:47:53.014+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:47:53.015+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:47:53,014 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:47:53.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.504 seconds
+[2025-05-19T22:48:23.967+0000] {processor.py:161} INFO - Started process (PID=897) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:48:23.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:48:23.972+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:48:23.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:48:24.380+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:48:24.395+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:48:24.395+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:48:24.396+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:48:24,395 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:48:24.406+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:48:24.406+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:48:24.407+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:48:24,406 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:48:24.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.478 seconds
+[2025-05-19T22:48:55.158+0000] {processor.py:161} INFO - Started process (PID=958) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:48:55.160+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:48:55.164+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:48:55.164+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:48:55.643+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:48:55.663+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:48:55.663+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:48:55.664+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:48:55,663 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:48:55.675+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:48:55.675+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:48:55.676+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:48:55,675 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:48:55.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.549 seconds
+[2025-05-19T22:49:26.152+0000] {processor.py:161} INFO - Started process (PID=1019) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:49:26.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:49:26.158+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:49:26.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:49:26.643+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:49:26.658+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:49:26.657+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:49:26.659+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:49:26,657 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:49:26.670+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:49:26.670+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:49:26.672+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:49:26,670 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:49:26.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.542 seconds
+[2025-05-19T22:49:57.514+0000] {processor.py:161} INFO - Started process (PID=1080) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:49:57.518+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:49:57.523+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:49:57.523+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:49:58.044+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:49:58.060+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:49:58.060+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:49:58.061+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:49:58,060 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:49:58.073+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:49:58.073+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:49:58.074+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:49:58,073 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:49:58.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.590 seconds
+[2025-05-19T22:50:28.562+0000] {processor.py:161} INFO - Started process (PID=1143) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:50:28.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:50:28.567+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:50:28.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:50:29.045+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:50:29.061+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:50:29.061+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:50:29.062+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:50:29,061 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:50:29.073+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:50:29.073+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:50:29.075+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:50:29,073 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:50:29.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.541 seconds
+[2025-05-19T22:50:59.394+0000] {processor.py:161} INFO - Started process (PID=1214) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:50:59.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:50:59.396+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:50:59.396+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:50:59.867+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:50:59.883+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:50:59.883+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:50:59.884+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:50:59,883 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:50:59.895+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:50:59.895+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:50:59.896+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:50:59,895 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:50:59.917+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.526 seconds
+[2025-05-19T22:51:30.856+0000] {processor.py:161} INFO - Started process (PID=1280) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:51:30.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:51:30.858+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:51:30.858+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:51:31.312+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:51:31.328+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:51:31.328+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:51:31.329+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:51:31,328 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:51:31.341+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:51:31.341+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:51:31.342+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:51:31,341 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:51:31.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.511 seconds
+[2025-05-19T22:52:01.441+0000] {processor.py:161} INFO - Started process (PID=1341) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:52:01.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:52:01.446+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:52:01.446+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:52:02.415+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:52:02.446+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:52:02.446+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:52:02.448+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:52:02,446 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:52:02.467+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:52:02.467+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:52:02.468+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:52:02,467 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:52:02.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.063 seconds
+[2025-05-19T22:52:32.777+0000] {processor.py:161} INFO - Started process (PID=1402) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:52:32.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:52:32.782+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:52:32.781+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:52:33.288+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:52:33.302+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:52:33.302+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:52:33.303+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:52:33,302 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:52:33.314+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:52:33.313+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:52:33.314+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:52:33,313 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:52:33.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.562 seconds
+[2025-05-19T22:53:03.688+0000] {processor.py:161} INFO - Started process (PID=1464) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:53:03.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:53:03.691+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:53:03.691+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:53:04.157+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:53:04.173+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:53:04.173+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:53:04.174+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:53:04,173 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:53:04.186+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:53:04.185+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:53:04.186+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:53:04,185 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:53:04.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.521 seconds
+[2025-05-19T22:53:34.293+0000] {processor.py:161} INFO - Started process (PID=1528) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:53:34.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2025-05-19T22:53:34.296+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:53:34.296+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:53:34.759+0000] {processor.py:840} INFO - DAG(s) 'flight_price_analysis' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2025-05-19T22:53:34.776+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:53:34.775+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-19T22:53:34.777+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:53:34,775 - airflow.models.dag - INFO - Sync 1 DAGs
+[2025-05-19T22:53:34.789+0000] {logging_mixin.py:188} INFO - [2025-05-19T22:53:34.788+0000] {dag.py:3823} INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:53:34.789+0000] {logging_mixin.py:188} WARNING - 2025-05-19 22:53:34,788 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+[2025-05-19T22:53:34.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.522 seconds

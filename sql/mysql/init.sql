@@ -20,7 +20,9 @@ CREATE TABLE IF NOT EXISTS flight_data (
     Tax_Surcharge_BDT DECIMAL(10, 2),
     Total_Fare_BDT DECIMAL(10, 2),
     Seasonality VARCHAR(50),
-    Days_Before_Departure INT
+    Days_Before_Departure INT,
+    Processed BOOLEAN DEFAULT FALSE,
+    Processing_Timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 -- Create a user for Airflow connection if not exists

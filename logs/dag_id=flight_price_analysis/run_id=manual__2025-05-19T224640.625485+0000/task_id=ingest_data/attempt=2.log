@@ -1,0 +1,78 @@
+[2025-05-19T22:51:46.367+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T22:46:40.625485+00:00 [queued]>
+[2025-05-19T22:51:46.374+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T22:46:40.625485+00:00 [queued]>
+[2025-05-19T22:51:46.375+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2025-05-19T22:51:46.388+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): ingest_data> on 2025-05-19 22:46:40.625485+00:00
+[2025-05-19T22:51:46.393+0000] {standard_task_runner.py:60} INFO - Started process 216 to run task
+[2025-05-19T22:51:46.395+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'flight_price_analysis', 'ingest_data', 'manual__2025-05-19T22:46:40.625485+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/flight_price_pipeline.py', '--cfg-path', '/tmp/tmplspc6lxb']
+[2025-05-19T22:51:46.396+0000] {standard_task_runner.py:88} INFO - Job 4: Subtask ingest_data
+[2025-05-19T22:51:46.438+0000] {task_command.py:423} INFO - Running <TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T22:46:40.625485+00:00 [running]> on host 7753327d0419
+[2025-05-19T22:51:46.505+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='flight_price_analysis' AIRFLOW_CTX_TASK_ID='ingest_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-19T22:46:40.625485+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-19T22:46:40.625485+00:00'
+[2025-05-19T22:51:46.522+0000] {data_ingestion.py:16} INFO - CSV validation successful for: /opt/***/dags/data/Flight_Price_Dataset_of_Bangladesh.csv
+[2025-05-19T22:51:46.523+0000] {data_ingestion.py:17} INFO - Columns found: Airline, Source, Source Name, Destination, Destination Name, Departure Date & Time, Arrival Date & Time, Duration (hrs), Stopovers, Aircraft Type, Class, Booking Source, Base Fare (BDT), Tax & Surcharge (BDT), Total Fare (BDT), Seasonality, Days Before Departure
+[2025-05-19T22:51:46.523+0000] {data_ingestion.py:37} INFO - Reading CSV file: /opt/***/dags/data/Flight_Price_Dataset_of_Bangladesh.csv
+[2025-05-19T22:51:46.847+0000] {data_ingestion.py:53} INFO - CSV loaded with 57000 rows and 17 columns
+[2025-05-19T22:51:46.848+0000] {data_ingestion.py:54} INFO - Columns after cleaning: Airline, Source, Source_Name, Destination, Destination_Name, Departure_Date_Time, Arrival_Date_Time, Duration_hrs, Stopovers, Aircraft_Type, Class, Booking_Source, Base_Fare_BDT, Tax_Surcharge_BDT, Total_Fare_BDT, Seasonality, Days_Before_Departure
+[2025-05-19T22:51:47.665+0000] {data_ingestion.py:67} INFO - Inserting data into MySQL table: flight_data
+[2025-05-19T22:51:47.673+0000] {base.py:83} INFO - Using connection ID 'mysql_conn' for task execution.
+[2025-05-19T22:51:47.806+0000] {data_ingestion.py:86} INFO - Inserted chunk 1: 1000 rows
+[2025-05-19T22:51:47.910+0000] {data_ingestion.py:86} INFO - Inserted chunk 2: 1000 rows
+[2025-05-19T22:51:48.026+0000] {data_ingestion.py:86} INFO - Inserted chunk 3: 1000 rows
+[2025-05-19T22:51:48.086+0000] {data_ingestion.py:86} INFO - Inserted chunk 4: 1000 rows
+[2025-05-19T22:51:48.158+0000] {data_ingestion.py:86} INFO - Inserted chunk 5: 1000 rows
+[2025-05-19T22:51:48.296+0000] {data_ingestion.py:86} INFO - Inserted chunk 6: 1000 rows
+[2025-05-19T22:51:48.368+0000] {data_ingestion.py:86} INFO - Inserted chunk 7: 1000 rows
+[2025-05-19T22:51:48.435+0000] {data_ingestion.py:86} INFO - Inserted chunk 8: 1000 rows
+[2025-05-19T22:51:48.510+0000] {data_ingestion.py:86} INFO - Inserted chunk 9: 1000 rows
+[2025-05-19T22:51:48.578+0000] {data_ingestion.py:86} INFO - Inserted chunk 10: 1000 rows
+[2025-05-19T22:51:48.651+0000] {data_ingestion.py:86} INFO - Inserted chunk 11: 1000 rows
+[2025-05-19T22:51:48.712+0000] {data_ingestion.py:86} INFO - Inserted chunk 12: 1000 rows
+[2025-05-19T22:51:48.781+0000] {data_ingestion.py:86} INFO - Inserted chunk 13: 1000 rows
+[2025-05-19T22:51:48.843+0000] {data_ingestion.py:86} INFO - Inserted chunk 14: 1000 rows
+[2025-05-19T22:51:48.908+0000] {data_ingestion.py:86} INFO - Inserted chunk 15: 1000 rows
+[2025-05-19T22:51:48.979+0000] {data_ingestion.py:86} INFO - Inserted chunk 16: 1000 rows
+[2025-05-19T22:51:49.044+0000] {data_ingestion.py:86} INFO - Inserted chunk 17: 1000 rows
+[2025-05-19T22:51:49.116+0000] {data_ingestion.py:86} INFO - Inserted chunk 18: 1000 rows
+[2025-05-19T22:51:49.178+0000] {data_ingestion.py:86} INFO - Inserted chunk 19: 1000 rows
+[2025-05-19T22:51:49.246+0000] {data_ingestion.py:86} INFO - Inserted chunk 20: 1000 rows
+[2025-05-19T22:51:49.309+0000] {data_ingestion.py:86} INFO - Inserted chunk 21: 1000 rows
+[2025-05-19T22:51:49.380+0000] {data_ingestion.py:86} INFO - Inserted chunk 22: 1000 rows
+[2025-05-19T22:51:49.449+0000] {data_ingestion.py:86} INFO - Inserted chunk 23: 1000 rows
+[2025-05-19T22:51:49.514+0000] {data_ingestion.py:86} INFO - Inserted chunk 24: 1000 rows
+[2025-05-19T22:51:49.578+0000] {data_ingestion.py:86} INFO - Inserted chunk 25: 1000 rows
+[2025-05-19T22:51:49.639+0000] {data_ingestion.py:86} INFO - Inserted chunk 26: 1000 rows
+[2025-05-19T22:51:49.708+0000] {data_ingestion.py:86} INFO - Inserted chunk 27: 1000 rows
+[2025-05-19T22:51:49.771+0000] {data_ingestion.py:86} INFO - Inserted chunk 28: 1000 rows
+[2025-05-19T22:51:49.834+0000] {data_ingestion.py:86} INFO - Inserted chunk 29: 1000 rows
+[2025-05-19T22:51:49.895+0000] {data_ingestion.py:86} INFO - Inserted chunk 30: 1000 rows
+[2025-05-19T22:51:49.959+0000] {data_ingestion.py:86} INFO - Inserted chunk 31: 1000 rows
+[2025-05-19T22:51:50.023+0000] {data_ingestion.py:86} INFO - Inserted chunk 32: 1000 rows
+[2025-05-19T22:51:50.091+0000] {data_ingestion.py:86} INFO - Inserted chunk 33: 1000 rows
+[2025-05-19T22:51:50.153+0000] {data_ingestion.py:86} INFO - Inserted chunk 34: 1000 rows
+[2025-05-19T22:51:50.212+0000] {data_ingestion.py:86} INFO - Inserted chunk 35: 1000 rows
+[2025-05-19T22:51:50.276+0000] {data_ingestion.py:86} INFO - Inserted chunk 36: 1000 rows
+[2025-05-19T22:51:50.357+0000] {data_ingestion.py:86} INFO - Inserted chunk 37: 1000 rows
+[2025-05-19T22:51:50.418+0000] {data_ingestion.py:86} INFO - Inserted chunk 38: 1000 rows
+[2025-05-19T22:51:50.489+0000] {data_ingestion.py:86} INFO - Inserted chunk 39: 1000 rows
+[2025-05-19T22:51:50.553+0000] {data_ingestion.py:86} INFO - Inserted chunk 40: 1000 rows
+[2025-05-19T22:51:50.618+0000] {data_ingestion.py:86} INFO - Inserted chunk 41: 1000 rows
+[2025-05-19T22:51:50.688+0000] {data_ingestion.py:86} INFO - Inserted chunk 42: 1000 rows
+[2025-05-19T22:51:50.755+0000] {data_ingestion.py:86} INFO - Inserted chunk 43: 1000 rows
+[2025-05-19T22:51:50.834+0000] {data_ingestion.py:86} INFO - Inserted chunk 44: 1000 rows
+[2025-05-19T22:51:50.902+0000] {data_ingestion.py:86} INFO - Inserted chunk 45: 1000 rows
+[2025-05-19T22:51:50.969+0000] {data_ingestion.py:86} INFO - Inserted chunk 46: 1000 rows
+[2025-05-19T22:51:51.039+0000] {data_ingestion.py:86} INFO - Inserted chunk 47: 1000 rows
+[2025-05-19T22:51:51.114+0000] {data_ingestion.py:86} INFO - Inserted chunk 48: 1000 rows
+[2025-05-19T22:51:51.185+0000] {data_ingestion.py:86} INFO - Inserted chunk 49: 1000 rows
+[2025-05-19T22:51:51.256+0000] {data_ingestion.py:86} INFO - Inserted chunk 50: 1000 rows
+[2025-05-19T22:51:51.329+0000] {data_ingestion.py:86} INFO - Inserted chunk 51: 1000 rows
+[2025-05-19T22:51:51.432+0000] {data_ingestion.py:86} INFO - Inserted chunk 52: 1000 rows
+[2025-05-19T22:51:51.537+0000] {data_ingestion.py:86} INFO - Inserted chunk 53: 1000 rows
+[2025-05-19T22:51:51.645+0000] {data_ingestion.py:86} INFO - Inserted chunk 54: 1000 rows
+[2025-05-19T22:51:51.730+0000] {data_ingestion.py:86} INFO - Inserted chunk 55: 1000 rows
+[2025-05-19T22:51:51.802+0000] {data_ingestion.py:86} INFO - Inserted chunk 56: 1000 rows
+[2025-05-19T22:51:51.877+0000] {data_ingestion.py:86} INFO - Inserted chunk 57: 1000 rows
+[2025-05-19T22:51:51.879+0000] {data_ingestion.py:95} INFO - Successfully loaded 57000 rows into flight_data
+[2025-05-19T22:51:51.884+0000] {python.py:201} INFO - Done. Returned value was: True
+[2025-05-19T22:51:51.906+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=flight_price_analysis, task_id=ingest_data, execution_date=20250519T224640, start_date=20250519T225146, end_date=20250519T225151
+[2025-05-19T22:51:51.946+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-05-19T22:51:51.971+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

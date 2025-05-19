@@ -126,3 +126,283 @@
 2025-05-19 21:43:15,936 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
 2025-05-19 21:43:46,372 - airflow.models.dag - INFO - Sync 1 DAGs
 2025-05-19 21:43:46,385 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:44:16,989 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:44:17,019 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:44:47,729 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:44:47,740 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:45:18,236 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:45:18,248 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:45:48,931 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:45:48,952 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:46:19,492 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:46:19,504 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:46:50,277 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:46:50,289 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:47:20,731 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:47:20,743 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:47:51,429 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:47:51,443 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:48:22,603 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:48:22,615 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:48:53,027 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:48:53,040 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:49:23,497 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:49:23,510 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:49:53,912 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:49:54,058 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:50:24,697 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:50:24,849 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:50:55,323 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:50:55,335 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:51:25,857 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:51:25,872 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:51:56,483 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:51:56,497 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:52:27,149 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:52:27,182 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:52:57,695 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:52:57,707 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:53:28,943 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:53:28,954 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:53:59,484 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:53:59,496 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:54:30,970 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:54:30,982 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:55:01,537 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:55:01,548 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:55:32,067 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:55:32,079 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:56:02,658 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:56:02,668 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:56:34,060 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:56:34,072 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:57:04,614 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:57:04,629 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:57:35,330 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:57:35,341 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:58:05,976 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:58:05,987 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:58:36,550 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:58:36,565 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:59:07,135 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:59:07,145 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 21:59:38,542 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 21:59:38,552 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:00:09,052 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:00:09,062 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:00:39,605 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:00:39,615 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:01:10,161 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:01:10,173 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:01:40,979 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:01:40,990 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:02:11,473 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:02:11,484 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:02:41,976 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:02:41,986 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:03:12,733 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:03:12,744 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:03:43,216 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:03:43,227 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:04:13,847 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:04:13,858 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:04:45,453 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:04:45,464 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:05:15,982 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:05:15,992 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:05:46,545 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:05:46,555 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:06:17,049 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:06:17,059 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:06:47,602 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:06:47,613 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:07:18,229 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:07:18,243 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:07:48,757 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:07:48,768 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:08:19,343 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:08:19,354 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:08:49,814 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:08:49,825 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:09:20,348 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:09:20,359 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:09:51,787 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:09:51,798 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:10:23,148 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:10:23,159 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:10:53,658 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:10:53,669 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:11:24,342 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:11:24,353 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:11:54,976 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:11:54,986 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:12:26,399 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:12:26,410 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:12:57,361 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:12:57,371 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:13:28,476 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:13:28,487 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:13:59,684 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:13:59,695 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:14:30,840 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:14:30,850 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:15:01,831 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:15:01,843 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:15:33,204 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:15:33,217 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:16:04,530 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:16:04,544 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:16:35,276 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:16:35,288 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:17:06,461 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:17:06,474 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:17:37,343 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:17:37,354 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:18:08,642 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:18:08,659 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:18:39,897 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:18:39,912 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:19:10,740 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:19:10,751 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:19:41,453 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:19:41,463 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:20:12,218 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:20:12,229 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:20:43,045 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:20:43,058 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:21:13,683 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:21:13,695 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:21:44,173 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:21:44,184 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:22:14,742 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:22:14,754 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:22:45,406 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:22:45,418 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:23:16,320 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:23:16,332 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:23:46,972 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:23:46,984 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:24:17,801 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:24:17,816 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:24:48,371 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:24:48,384 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:25:13,819 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:25:13,830 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:25:45,095 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:25:45,108 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:26:06,666 - airflow.cli.commands.task_command - INFO - Running <TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T22:26:04.163335+00:00 [queued]> on host fb9c3f11be12
+2025-05-19 22:26:06,666 - celery.redirected - WARNING - 2025-05-19 22:26:06,666 - airflow.cli.commands.task_command - INFO - Running <TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T22:26:04.163335+00:00 [queued]> on host fb9c3f11be12
+2025-05-19 22:26:16,288 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:26:16,301 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:26:47,151 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:26:47,163 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:26:53,873 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:26:53,884 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:27:24,462 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:27:24,476 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:27:54,975 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:27:54,988 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:28:25,481 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:28:25,495 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:28:56,621 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:28:56,634 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:29:27,410 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:29:27,421 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:29:58,053 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:29:58,070 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:30:29,247 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:30:29,268 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:31:00,493 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:31:00,509 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:31:08,164 - airflow.cli.commands.task_command - INFO - Running <TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T22:26:04.163335+00:00 [queued]> on host fb9c3f11be12
+2025-05-19 22:31:08,165 - celery.redirected - WARNING - 2025-05-19 22:31:08,164 - airflow.cli.commands.task_command - INFO - Running <TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T22:26:04.163335+00:00 [queued]> on host fb9c3f11be12
+2025-05-19 22:31:17,815 - airflow.cli.commands.task_command - INFO - Running <TaskInstance: flight_price_analysis.validate_data manual__2025-05-19T22:26:04.163335+00:00 [queued]> on host fb9c3f11be12
+2025-05-19 22:31:17,816 - celery.redirected - WARNING - 2025-05-19 22:31:17,815 - airflow.cli.commands.task_command - INFO - Running <TaskInstance: flight_price_analysis.validate_data manual__2025-05-19T22:26:04.163335+00:00 [queued]> on host fb9c3f11be12
+2025-05-19 22:31:31,212 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:31:31,225 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:32:01,759 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:32:01,777 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:32:33,159 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:32:33,176 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:33:04,466 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:33:04,480 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:33:35,770 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:33:35,783 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:34:06,960 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:34:06,978 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:34:37,413 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:34:37,425 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:35:08,148 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:35:08,165 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:35:38,917 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:35:38,929 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:36:09,917 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:36:09,930 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:36:19,409 - airflow.cli.commands.task_command - INFO - Running <TaskInstance: flight_price_analysis.validate_data manual__2025-05-19T22:26:04.163335+00:00 [queued]> on host fb9c3f11be12
+2025-05-19 22:36:19,410 - celery.redirected - WARNING - 2025-05-19 22:36:19,409 - airflow.cli.commands.task_command - INFO - Running <TaskInstance: flight_price_analysis.validate_data manual__2025-05-19T22:26:04.163335+00:00 [queued]> on host fb9c3f11be12
+2025-05-19 22:36:41,233 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:36:41,248 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:37:12,599 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:37:12,612 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:37:43,631 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:37:43,646 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:41:08,706 - airflow.auth.managers.fab.security_manager.override - INFO - Created Permission View: can delete on DAG:flight_price_analysis
+2025-05-19 22:41:08,726 - airflow.auth.managers.fab.security_manager.override - INFO - Created Permission View: can read on DAG:flight_price_analysis
+2025-05-19 22:41:08,742 - airflow.auth.managers.fab.security_manager.override - INFO - Created Permission View: can edit on DAG:flight_price_analysis
+2025-05-19 22:41:08,745 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:41:08,769 - airflow.models.dag - INFO - Creating ORM DAG for flight_price_analysis
+2025-05-19 22:41:08,773 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:41:39,691 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:41:39,702 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:42:10,546 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:42:10,558 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:42:41,432 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:42:41,444 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:43:12,821 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:43:12,833 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:43:43,972 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:43:43,985 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:44:15,095 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:44:15,108 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:44:45,967 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:44:45,978 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:45:16,560 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:45:16,573 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:45:47,861 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:45:47,872 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:46:19,091 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:46:19,103 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:46:43,724 - airflow.cli.commands.task_command - INFO - Running <TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T22:46:40.625485+00:00 [queued]> on host 7753327d0419
+2025-05-19 22:46:43,724 - celery.redirected - WARNING - 2025-05-19 22:46:43,724 - airflow.cli.commands.task_command - INFO - Running <TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T22:46:40.625485+00:00 [queued]> on host 7753327d0419
+2025-05-19 22:46:50,502 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:46:50,518 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:47:21,797 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:47:21,813 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:47:53,002 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:47:53,014 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:48:24,395 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:48:24,406 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:48:55,663 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:48:55,675 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:49:26,657 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:49:26,670 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:49:58,060 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:49:58,073 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:50:29,061 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:50:29,073 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:50:59,883 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:50:59,895 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:51:31,328 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:51:31,341 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:51:46,304 - airflow.cli.commands.task_command - INFO - Running <TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T22:46:40.625485+00:00 [queued]> on host 7753327d0419
+2025-05-19 22:51:46,304 - celery.redirected - WARNING - 2025-05-19 22:51:46,304 - airflow.cli.commands.task_command - INFO - Running <TaskInstance: flight_price_analysis.ingest_data manual__2025-05-19T22:46:40.625485+00:00 [queued]> on host 7753327d0419
+2025-05-19 22:51:53,382 - airflow.cli.commands.task_command - INFO - Running <TaskInstance: flight_price_analysis.validate_data manual__2025-05-19T22:46:40.625485+00:00 [queued]> on host 7753327d0419
+2025-05-19 22:51:53,382 - celery.redirected - WARNING - 2025-05-19 22:51:53,382 - airflow.cli.commands.task_command - INFO - Running <TaskInstance: flight_price_analysis.validate_data manual__2025-05-19T22:46:40.625485+00:00 [queued]> on host 7753327d0419
+2025-05-19 22:52:02,446 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:52:02,467 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:52:33,302 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:52:33,313 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:53:04,173 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:53:04,185 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
+2025-05-19 22:53:34,775 - airflow.models.dag - INFO - Sync 1 DAGs
+2025-05-19 22:53:34,788 - airflow.models.dag - INFO - Setting next_dagrun for flight_price_analysis to None, run_after=None
