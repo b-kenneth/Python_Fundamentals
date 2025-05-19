@@ -1,3 +1,4 @@
+# dags/flight_price_pipeline.py
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
@@ -6,6 +7,7 @@ from datetime import timedelta
 # Import task modules
 from tasks.data_ingestion import csv_to_mysql
 from tasks.data_validation import validate_flight_data
+from tasks.data_transformation import transform_and_compute_kpis
 from tasks.utils.logging_config import configure_logging
 
 # Default arguments
@@ -54,5 +56,15 @@ validate_data = PythonOperator(
     dag=dag
 )
 
+transform_data = PythonOperator(
+    task_id='transform_data',
+    python_callable=transform_and_compute_kpis,
+    op_kwargs={
+        'mysql_conn_id': 'mysql_conn',
+        'table_name': 'flight_data'
+    },
+    dag=dag
+)
+
 # Task dependencies
-ingest_data >> validate_data
+ingest_data >> validate_data >> transform_data
