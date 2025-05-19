@@ -1,0 +1,32 @@
+[2025-05-19T23:47:19.247+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flight_price_analysis.load_data manual__2025-05-19T23:46:54.353809+00:00 [queued]>
+[2025-05-19T23:47:19.257+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flight_price_analysis.load_data manual__2025-05-19T23:46:54.353809+00:00 [queued]>
+[2025-05-19T23:47:19.257+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-05-19T23:47:19.278+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load_data> on 2025-05-19 23:46:54.353809+00:00
+[2025-05-19T23:47:19.284+0000] {standard_task_runner.py:60} INFO - Started process 1073 to run task
+[2025-05-19T23:47:19.288+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'flight_price_analysis', 'load_data', 'manual__2025-05-19T23:46:54.353809+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/flight_price_pipeline.py', '--cfg-path', '/tmp/tmpq9wr42li']
+[2025-05-19T23:47:19.289+0000] {standard_task_runner.py:88} INFO - Job 12: Subtask load_data
+[2025-05-19T23:47:19.340+0000] {task_command.py:423} INFO - Running <TaskInstance: flight_price_analysis.load_data manual__2025-05-19T23:46:54.353809+00:00 [running]> on host 7753327d0419
+[2025-05-19T23:47:19.426+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='flight_price_analysis' AIRFLOW_CTX_TASK_ID='load_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-19T23:46:54.353809+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-19T23:46:54.353809+00:00'
+[2025-05-19T23:47:19.428+0000] {data_loading.py:24} INFO - Loading airline metrics to PostgreSQL
+[2025-05-19T23:47:19.437+0000] {base.py:83} INFO - Using connection ID 'mysql_conn' for task execution.
+[2025-05-19T23:47:19.450+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/common/sql/hooks/sql.py:221: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  return psql.read_sql(sql, con=conn, params=parameters, **kwargs)
+
+[2025-05-19T23:47:19.455+0000] {data_loading.py:56} INFO - Fetched 24 airline metrics records
+[2025-05-19T23:47:19.462+0000] {base.py:83} INFO - Using connection ID '***_conn' for task execution.
+[2025-05-19T23:47:19.491+0000] {data_loading.py:90} INFO - Successfully loaded 24 airline metrics records into PostgreSQL
+[2025-05-19T23:47:19.492+0000] {data_loading.py:28} INFO - Loading seasonal metrics to PostgreSQL
+[2025-05-19T23:47:19.500+0000] {base.py:83} INFO - Using connection ID 'mysql_conn' for task execution.
+[2025-05-19T23:47:19.505+0000] {data_loading.py:109} INFO - Fetched 96 seasonal metrics records
+[2025-05-19T23:47:19.512+0000] {base.py:83} INFO - Using connection ID '***_conn' for task execution.
+[2025-05-19T23:47:19.578+0000] {data_loading.py:140} INFO - Successfully loaded 96 seasonal metrics records into PostgreSQL
+[2025-05-19T23:47:19.578+0000] {data_loading.py:32} INFO - Loading route metrics to PostgreSQL
+[2025-05-19T23:47:19.585+0000] {base.py:83} INFO - Using connection ID 'mysql_conn' for task execution.
+[2025-05-19T23:47:19.590+0000] {data_loading.py:160} INFO - Fetched 152 route metrics records
+[2025-05-19T23:47:19.597+0000] {base.py:83} INFO - Using connection ID '***_conn' for task execution.
+[2025-05-19T23:47:19.721+0000] {data_loading.py:195} INFO - Successfully loaded 152 route metrics records into PostgreSQL
+[2025-05-19T23:47:19.722+0000] {data_loading.py:35} INFO - Data loading to PostgreSQL completed successfully
+[2025-05-19T23:47:19.722+0000] {python.py:201} INFO - Done. Returned value was: True
+[2025-05-19T23:47:19.750+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=flight_price_analysis, task_id=load_data, execution_date=20250519T234654, start_date=20250519T234719, end_date=20250519T234719
+[2025-05-19T23:47:19.782+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-05-19T23:47:19.799+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

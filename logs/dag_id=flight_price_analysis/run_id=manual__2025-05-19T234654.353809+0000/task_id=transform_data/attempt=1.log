@@ -1,0 +1,26 @@
+[2025-05-19T23:47:13.776+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flight_price_analysis.transform_data manual__2025-05-19T23:46:54.353809+00:00 [queued]>
+[2025-05-19T23:47:13.791+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flight_price_analysis.transform_data manual__2025-05-19T23:46:54.353809+00:00 [queued]>
+[2025-05-19T23:47:13.792+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-05-19T23:47:13.817+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): transform_data> on 2025-05-19 23:46:54.353809+00:00
+[2025-05-19T23:47:13.824+0000] {standard_task_runner.py:60} INFO - Started process 1070 to run task
+[2025-05-19T23:47:13.828+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'flight_price_analysis', 'transform_data', 'manual__2025-05-19T23:46:54.353809+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/flight_price_pipeline.py', '--cfg-path', '/tmp/tmpuvn7uyr1']
+[2025-05-19T23:47:13.831+0000] {standard_task_runner.py:88} INFO - Job 11: Subtask transform_data
+[2025-05-19T23:47:13.905+0000] {task_command.py:423} INFO - Running <TaskInstance: flight_price_analysis.transform_data manual__2025-05-19T23:46:54.353809+00:00 [running]> on host 7753327d0419
+[2025-05-19T23:47:14.034+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='flight_price_analysis' AIRFLOW_CTX_TASK_ID='transform_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-19T23:46:54.353809+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-19T23:46:54.353809+00:00'
+[2025-05-19T23:47:14.046+0000] {base.py:83} INFO - Using connection ID 'mysql_conn' for task execution.
+[2025-05-19T23:47:14.066+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/common/sql/hooks/sql.py:221: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  return psql.read_sql(sql, con=conn, params=parameters, **kwargs)
+
+[2025-05-19T23:47:16.100+0000] {data_transformation.py:23} INFO - Fetched 57000 validated rows for transformation
+[2025-05-19T23:47:16.105+0000] {data_transformation.py:35} INFO - Found 7463 rows with mismatched Total_Fare, recalculating
+[2025-05-19T23:47:16.239+0000] {data_transformation.py:87} INFO - Computed metrics for 24 airlines
+[2025-05-19T23:47:16.297+0000] {data_transformation.py:111} INFO - Computed seasonal metrics for 96 season-airline combinations
+[2025-05-19T23:47:16.401+0000] {data_transformation.py:135} INFO - Computed route metrics for 152 routes
+[2025-05-19T23:47:16.413+0000] {base.py:83} INFO - Using connection ID 'mysql_conn' for task execution.
+[2025-05-19T23:47:16.876+0000] {data_transformation.py:216} INFO - KPI results stored in MySQL successfully
+[2025-05-19T23:47:16.888+0000] {base.py:83} INFO - Using connection ID 'mysql_conn' for task execution.
+[2025-05-19T23:47:16.898+0000] {data_transformation.py:66} INFO - Data transformation and KPI computation completed successfully
+[2025-05-19T23:47:16.955+0000] {python.py:201} INFO - Done. Returned value was: True
+[2025-05-19T23:47:17.017+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=flight_price_analysis, task_id=transform_data, execution_date=20250519T234654, start_date=20250519T234713, end_date=20250519T234717
+[2025-05-19T23:47:17.091+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-05-19T23:47:17.124+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
