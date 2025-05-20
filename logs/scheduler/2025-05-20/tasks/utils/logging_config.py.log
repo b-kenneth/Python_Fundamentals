@@ -1,0 +1,190 @@
+[2025-05-20T07:45:10.958+0000] {processor.py:161} INFO - Started process (PID=48) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:45:10.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:45:10.965+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:45:10.964+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:45:10.997+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:45:11.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.084 seconds
+[2025-05-20T07:45:42.849+0000] {processor.py:161} INFO - Started process (PID=113) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:45:42.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:45:42.856+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:45:42.855+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:45:42.886+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:45:42.913+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.072 seconds
+[2025-05-20T07:46:14.797+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:46:14.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:46:14.802+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:46:14.802+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:46:14.838+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:46:14.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.068 seconds
+[2025-05-20T07:46:45.685+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:46:45.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:46:45.695+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:46:45.695+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:46:45.759+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:46:45.799+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.126 seconds
+[2025-05-20T07:47:17.551+0000] {processor.py:161} INFO - Started process (PID=306) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:47:17.552+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:47:17.556+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:47:17.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:47:17.601+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:47:17.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.094 seconds
+[2025-05-20T07:47:49.305+0000] {processor.py:161} INFO - Started process (PID=371) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:47:49.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:47:49.315+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:47:49.314+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:47:49.386+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:47:49.455+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.160 seconds
+[2025-05-20T07:48:20.653+0000] {processor.py:161} INFO - Started process (PID=436) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:48:20.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:48:20.659+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:48:20.659+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:48:20.716+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:48:20.762+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.116 seconds
+[2025-05-20T07:48:51.161+0000] {processor.py:161} INFO - Started process (PID=499) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:48:51.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:48:51.166+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:48:51.166+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:48:51.198+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:48:51.221+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.065 seconds
+[2025-05-20T07:49:21.411+0000] {processor.py:161} INFO - Started process (PID=561) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:49:21.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:49:21.417+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:49:21.417+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:49:21.465+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:49:21.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.103 seconds
+[2025-05-20T07:49:51.747+0000] {processor.py:161} INFO - Started process (PID=625) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:49:51.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:49:51.758+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:49:51.758+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:49:51.801+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:49:51.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.127 seconds
+[2025-05-20T07:50:22.574+0000] {processor.py:161} INFO - Started process (PID=690) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:50:22.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:50:22.581+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:50:22.580+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:50:22.606+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:50:22.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.061 seconds
+[2025-05-20T07:50:53.314+0000] {processor.py:161} INFO - Started process (PID=755) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:50:53.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:50:53.320+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:50:53.319+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:50:53.348+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:50:53.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.065 seconds
+[2025-05-20T07:51:24.257+0000] {processor.py:161} INFO - Started process (PID=820) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:51:24.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:51:24.265+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:51:24.264+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:51:24.305+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:51:24.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.091 seconds
+[2025-05-20T07:51:54.541+0000] {processor.py:161} INFO - Started process (PID=885) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:51:54.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:51:54.550+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:51:54.549+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:51:54.607+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:51:54.679+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.146 seconds
+[2025-05-20T07:52:24.772+0000] {processor.py:161} INFO - Started process (PID=949) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:52:24.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:52:24.783+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:52:24.782+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:52:24.816+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:52:24.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.072 seconds
+[2025-05-20T07:52:55.647+0000] {processor.py:161} INFO - Started process (PID=1015) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:52:55.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:52:55.658+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:52:55.656+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:52:55.719+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:52:55.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.127 seconds
+[2025-05-20T07:53:26.337+0000] {processor.py:161} INFO - Started process (PID=1080) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:53:26.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:53:26.343+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:53:26.343+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:53:26.371+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:53:26.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.065 seconds
+[2025-05-20T07:53:56.812+0000] {processor.py:161} INFO - Started process (PID=1145) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:53:56.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:53:56.818+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:53:56.818+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:53:56.845+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:53:56.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.064 seconds
+[2025-05-20T07:54:27.145+0000] {processor.py:161} INFO - Started process (PID=1210) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:54:27.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:54:27.174+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:54:27.170+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:54:27.259+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:54:27.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.161 seconds
+[2025-05-20T07:54:57.600+0000] {processor.py:161} INFO - Started process (PID=1275) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:54:57.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:54:57.694+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:54:57.688+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:54:57.772+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:54:57.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.247 seconds
+[2025-05-20T07:55:28.677+0000] {processor.py:161} INFO - Started process (PID=1340) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:55:28.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:55:28.685+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:55:28.684+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:55:28.713+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:55:28.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.068 seconds
+[2025-05-20T07:55:59.205+0000] {processor.py:161} INFO - Started process (PID=1405) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:55:59.207+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:55:59.213+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:55:59.212+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:55:59.238+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:55:59.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.061 seconds
+[2025-05-20T07:56:29.981+0000] {processor.py:161} INFO - Started process (PID=1470) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:56:29.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:56:29.990+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:56:29.989+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:56:30.051+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:56:30.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.128 seconds
+[2025-05-20T07:57:00.543+0000] {processor.py:161} INFO - Started process (PID=1535) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:57:00.550+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:57:00.561+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:57:00.561+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:57:00.596+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:57:00.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.089 seconds
+[2025-05-20T07:57:30.824+0000] {processor.py:161} INFO - Started process (PID=1600) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:57:30.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:57:30.830+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:57:30.829+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:57:30.862+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:57:30.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.070 seconds
+[2025-05-20T07:58:01.249+0000] {processor.py:161} INFO - Started process (PID=1665) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:58:01.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:58:01.255+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:58:01.255+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:58:01.275+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:58:01.298+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.054 seconds
+[2025-05-20T07:58:32.303+0000] {processor.py:161} INFO - Started process (PID=1730) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:58:32.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:58:32.309+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:58:32.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:58:32.341+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:58:32.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.070 seconds
+[2025-05-20T07:59:02.953+0000] {processor.py:161} INFO - Started process (PID=1795) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:59:02.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:59:02.965+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:59:02.964+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:59:03.034+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:59:03.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.147 seconds
+[2025-05-20T07:59:34.202+0000] {processor.py:161} INFO - Started process (PID=1860) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:59:34.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T07:59:34.211+0000] {logging_mixin.py:188} INFO - [2025-05-20T07:59:34.210+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:59:34.252+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T07:59:34.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.118 seconds
+[2025-05-20T08:00:04.537+0000] {processor.py:161} INFO - Started process (PID=1931) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:00:04.539+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T08:00:04.542+0000] {logging_mixin.py:188} INFO - [2025-05-20T08:00:04.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:00:04.570+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:00:04.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.069 seconds
+[2025-05-20T08:00:34.831+0000] {processor.py:161} INFO - Started process (PID=1996) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:00:34.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T08:00:34.838+0000] {logging_mixin.py:188} INFO - [2025-05-20T08:00:34.838+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:00:34.874+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:00:34.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.080 seconds
+[2025-05-20T08:01:06.757+0000] {processor.py:161} INFO - Started process (PID=2061) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:01:06.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T08:01:06.763+0000] {logging_mixin.py:188} INFO - [2025-05-20T08:01:06.762+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:01:06.800+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:01:06.827+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.078 seconds
+[2025-05-20T08:01:37.012+0000] {processor.py:161} INFO - Started process (PID=2124) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:01:37.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T08:01:37.016+0000] {logging_mixin.py:188} INFO - [2025-05-20T08:01:37.016+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:01:37.051+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:01:37.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.072 seconds
+[2025-05-20T08:02:07.278+0000] {processor.py:161} INFO - Started process (PID=2188) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:02:07.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T08:02:07.284+0000] {logging_mixin.py:188} INFO - [2025-05-20T08:02:07.283+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:02:07.306+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:02:07.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.059 seconds
+[2025-05-20T08:02:38.040+0000] {processor.py:161} INFO - Started process (PID=2253) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:02:38.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T08:02:38.046+0000] {logging_mixin.py:188} INFO - [2025-05-20T08:02:38.046+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:02:38.094+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:02:38.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.095 seconds
+[2025-05-20T08:03:08.742+0000] {processor.py:161} INFO - Started process (PID=2318) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:03:08.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T08:03:08.749+0000] {logging_mixin.py:188} INFO - [2025-05-20T08:03:08.748+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:03:08.793+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:03:08.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.089 seconds
+[2025-05-20T08:03:39.402+0000] {processor.py:161} INFO - Started process (PID=2380) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:03:39.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T08:03:39.412+0000] {logging_mixin.py:188} INFO - [2025-05-20T08:03:39.411+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:03:39.446+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:03:39.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.101 seconds
+[2025-05-20T08:04:10.076+0000] {processor.py:161} INFO - Started process (PID=2439) to work on /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:04:10.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/utils/logging_config.py for tasks to queue
+[2025-05-20T08:04:10.081+0000] {logging_mixin.py:188} INFO - [2025-05-20T08:04:10.081+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:04:10.111+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/utils/logging_config.py
+[2025-05-20T08:04:10.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/utils/logging_config.py took 0.066 seconds

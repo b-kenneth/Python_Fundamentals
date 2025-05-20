@@ -778,3 +778,23 @@
 [2025-05-19T23:50:21.457+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:50:21.456+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/data_validation.py
 [2025-05-19T23:50:21.761+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/data_validation.py
 [2025-05-19T23:50:21.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/data_validation.py took 0.324 seconds
+[2025-05-19T23:50:52.152+0000] {processor.py:161} INFO - Started process (PID=8531) to work on /opt/airflow/dags/tasks/data_validation.py
+[2025-05-19T23:50:52.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/data_validation.py for tasks to queue
+[2025-05-19T23:50:52.156+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:50:52.156+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/data_validation.py
+[2025-05-19T23:50:52.428+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/data_validation.py
+[2025-05-19T23:50:52.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/data_validation.py took 0.293 seconds
+[2025-05-19T23:51:22.531+0000] {processor.py:161} INFO - Started process (PID=8596) to work on /opt/airflow/dags/tasks/data_validation.py
+[2025-05-19T23:51:22.533+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/data_validation.py for tasks to queue
+[2025-05-19T23:51:22.534+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:51:22.534+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/data_validation.py
+[2025-05-19T23:51:22.830+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/data_validation.py
+[2025-05-19T23:51:22.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/data_validation.py took 0.316 seconds
+[2025-05-19T23:51:53.430+0000] {processor.py:161} INFO - Started process (PID=8660) to work on /opt/airflow/dags/tasks/data_validation.py
+[2025-05-19T23:51:53.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/data_validation.py for tasks to queue
+[2025-05-19T23:51:53.432+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:51:53.432+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/data_validation.py
+[2025-05-19T23:51:53.670+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/data_validation.py
+[2025-05-19T23:51:53.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/data_validation.py took 0.254 seconds
+[2025-05-19T23:52:24.429+0000] {processor.py:161} INFO - Started process (PID=8725) to work on /opt/airflow/dags/tasks/data_validation.py
+[2025-05-19T23:52:24.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/data_validation.py for tasks to queue
+[2025-05-19T23:52:24.433+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:52:24.432+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/data_validation.py
+[2025-05-19T23:52:24.714+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/data_validation.py
+[2025-05-19T23:52:24.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/data_validation.py took 0.302 seconds
